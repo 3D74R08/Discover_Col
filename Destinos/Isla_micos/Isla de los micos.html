@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover the Colors of Colombia - Isla de los Micos</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  <link rel="stylesheet" href="isla_micos.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100">
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="javascript:void(0)">
+        <img src="https://cdn.pixabay.com/photo/2016/10/24/09/40/colombia-1765615_960_720.png" alt="Discover Colombia Logo" class="img-fluid">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#info">Información General</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tips">Tips del Lugar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tours">Tours y Actividades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#transport">Transporte</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#food">Comida Típica</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#accommodation">Hospedaje</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+        <div class="language-toggle">
+          <button class="btn-lang active" id="es-lang">ES</button>
+          <span>|</span>
+          <button class="btn-lang" id="en-lang">EN</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" style="background-image: url('https://cdn.pixabay.com/photo/2022/02/01/20/32/monkey-6988324_1280.jpg');">
+    <div class="hero-content">
+      <h1>Discover the Colors of Colombia</h1>
+      <p>Vive la selva en la Isla de los Micos</p>
+      <div class="hero-buttons">
+        <a href="#info" class="btn btn-primary"><i class="fas fa-map-marker-alt me-2"></i>Planifica tu visita</a>
+        <a href="#tours" class="btn btn-success"><i class="fas fa-tree me-2"></i>Conoce la Amazonía</a>
+        <a href="#accommodation" class="btn btn-warning"><i class="fas fa-calendar-check me-2"></i>Reserva tu experiencia</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Information Section -->
+  <section id="info" class="info-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Información General</h2>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+          <div class="info-image">
+            <img src="https://cdn.pixabay.com/photo/2015/09/05/03/51/amazon-924088_1280.jpg" alt="Isla de los Micos" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <h3 class="mb-4">Isla de los Micos</h3>
+          <p>Ubicada en el corazón del Amazonas colombiano, la Isla de los Micos es un paraíso natural hogar de cientos de monos en libertad. Esta reserva de 450 hectáreas se encuentra a 30 minutos en lancha desde Leticia, la capital del departamento del Amazonas.</p>
+          <p>El ecosistema de la isla es característico de la selva amazónica, con una densa vegetación tropical y una gran diversidad de flora y fauna. Los monos frailes o capuchinos son los habitantes más conocidos, pero también podrás observar otras especies como tucanes, guacamayas y mariposas exóticas.</p>
+          <p>La isla forma parte de los esfuerzos de conservación de la biodiversidad amazónica, y tu visita contribuye a la protección de este valioso ecosistema y las comunidades indígenas que lo habitan.</p>
+          <div class="mt-4">
+            <a href="javascript:void(0)" class="btn btn-outline-success"><i class="fas fa-binoculars me-2"></i>Más sobre la biodiversidad</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tips Section -->
+  <section id="tips" class="tips-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Tips del Lugar</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="tip-card text-center">
+            <div class="tip-icon">
+              <i class="fas fa-suitcase"></i>
+            </div>
+            <h4>Qué Llevar</h4>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-check text-success me-2"></i>Ropa ligera</li>
+              <li><i class="fas fa-check text-success me-2"></i>Repelente de insectos</li>
+              <li><i class="fas fa-check text-success me-2"></i>Protector solar</li>
+              <li><i class="fas fa-check text-success me-2"></i>Sombrero o gorra</li>
+              <li><i class="fas fa-check text-success me-2"></i>Calzado cómodo</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="tip-card text-center">
+            <div class="tip-icon">
+              <i class="fas fa-cloud-sun"></i>
+            </div>
+            <h4>Clima</h4>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-thermometer-three-quarters text-danger me-2"></i>Temperatura: 24-32°C</li>
+              <li><i class="fas fa-tint text-primary me-2"></i>Humedad alta</li>
+              <li><i class="fas fa-cloud-rain text-info me-2"></i>Temporada de lluvia: Dic-May</li>
+              <li><i class="fas fa-sun text-warning me-2"></i>Temporada seca: Jun-Nov</li>
+              <li><i class="fas fa-clock text-secondary me-2"></i>Mejor época: Jul-Ago</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="tip-card text-center">
+            <div class="tip-icon">
+              <i class="fas fa-hand-holding-heart"></i>
+            </div>
+            <h4>Respeto Cultural</h4>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-check text-success me-2"></i>Pide permiso para fotos</li>
+              <li><i class="fas fa-check text-success me-2"></i>Respeta la naturaleza</li>
+              <li><i class="fas fa-check text-success me-2"></i>No alimentes a los monos</li>
+              <li><i class="fas fa-check text-success me-2"></i>Sigue las indicaciones</li>
+              <li><i class="fas fa-check text-success me-2"></i>Apoya el comercio local</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="tip-card text-center">
+            <div class="tip-icon">
+              <i class="fas fa-medkit"></i>
+            </div>
+            <h4>Salud y Seguridad</h4>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-check text-success me-2"></i>Vacuna fiebre amarilla</li>
+              <li><i class="fas fa-check text-success me-2"></i>Seguro de viaje</li>
+              <li><i class="fas fa-check text-success me-2"></i>Botiquín básico</li>
+              <li><i class="fas fa-check text-success me-2"></i>Hidratación constante</li>
+              <li><i class="fas fa-check text-success me-2"></i>Protección UV</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tours Section -->
+  <section id="tours" class="tours-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Tours y Actividades</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="tour-card">
+            <div class="tour-img">
+              <img src="https://cdn.pixabay.com/photo/2021/10/28/05/27/rainforest-6748994_1280.jpg" alt="Caminata en la Selva">
+            </div>
+            <div class="tour-body">
+              <h4 class="tour-title">Caminata en la Selva</h4>
+              <p>Recorre senderos ecológicos acompañado de guías locales que te mostrarán la increíble biodiversidad amazónica.</p>
+              <button class="btn btn-sm btn-outline-success mt-2" data-bs-toggle="modal" data-bs-target="#tourModal1">Más info</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="tour-card">
+            <div class="tour-img">
+              <img src="https://cdn.pixabay.com/photo/2020/06/01/07/34/colombia-5245089_1280.jpg" alt="Paseo en Bote">
+            </div>
+            <div class="tour-body">
+              <h4 class="tour-title">Paseo en Bote</h4>
+              <p>Navega por el majestuoso río Amazonas y sus afluentes, observando la vida selvática desde una perspectiva única.</p>
+              <button class="btn btn-sm btn-outline-success mt-2" data-bs-toggle="modal" data-bs-target="#tourModal2">Más info</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="tour-card">
+            <div class="tour-img">
+              <img src="https://cdn.pixabay.com/photo/2017/07/12/08/35/amazon-2496255_1280.jpg" alt="Visita a Comunidades">
+            </div>
+            <div class="tour-body">
+              <h4 class="tour-title">Visita a Comunidades</h4>
+              <p>Conoce las tradiciones y estilo de vida de las comunidades indígenas que habitan la Amazonía colombiana.</p>
+              <button class="btn btn-sm btn-outline-success mt-2" data-bs-toggle="modal" data-bs-target="#tourModal3">Más info</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="tour-card">
+            <div class="tour-img">
+              <img src="https://cdn.pixabay.com/photo/2019/09/12/05/30/amazon-4470881_1280.jpg" alt="Observación de Fauna">
+            </div>
+            <div class="tour-body">
+              <h4 class="tour-title">Observación de Fauna</h4>
+              <p>Actividad especializada para avistamiento de aves, monos, delfines rosados y otras especies amazónicas.</p>
+              <button class="btn btn-sm btn-outline-success mt-2" data-bs-toggle="modal" data-bs-target="#tourModal4">Más info</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tour Modals -->
+  <div class="modal fade" id="tourModal1" tabindex="-1" aria-labelledby="tourModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="tourModalLabel1">Caminata en la Selva</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="https://cdn.pixabay.com/photo/2021/10/28/05/27/rainforest-6748994_1280.jpg" alt="Caminata en la Selva" class="modal-img mb-4">
+          <h4>Detalles del Tour</h4>
+          <p>Adéntrate en la selva amazónica con nuestros guías expertos en un recorrido fascinante que te llevará a descubrir la increíble biodiversidad de la región. Conocerás plantas medicinales, árboles gigantes y tendrás la oportunidad de observar diversas especies de aves, insectos y con suerte, algunos mamíferos.</p>
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <h5><i class="far fa-clock me-2 text-success"></i>Duración</h5>
+              <p>4-5 horas</p>
+              <h5><i class="fas fa-user-friends me-2 text-success"></i>Tamaño del grupo</h5>
+              <p>Máximo 10 personas</p>
+            </div>
+            <div class="col-md-6">
+              <h5><i class="fas fa-tag me-2 text-success"></i>Precio</h5>
+              <p>Desde $35 USD por persona</p>
+              <h5><i class="fas fa-info-circle me-2 text-success"></i>Incluye</h5>
+              <p>Guía bilingüe, refrigerio, agua, protector contra insectos</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-success">Reservar ahora</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="tourModal2" tabindex="-1" aria-labelledby="tourModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="tourModalLabel2">Paseo en Bote</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="https://cdn.pixabay.com/photo/2020/06/01/07/34/colombia-5245089_1280.jpg" alt="Paseo en Bote" class="modal-img mb-4">
+          <h4>Detalles del Tour</h4>
+          <p>Navega por el majestuoso río Amazonas y sus afluentes en una experiencia inolvidable. Durante el recorrido podrás apreciar la exuberante vegetación ribereña, comunidades palafíticas, y tendrás la oportunidad de observar delfines rosados, caimanes y diversas especies de aves acuáticas.</p>
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <h5><i class="far fa-clock me-2 text-success"></i>Duración</h5>
+              <p>3-4 horas</p>
+              <h5><i class="fas fa-user-friends me-2 text-success"></i>Tamaño del grupo</h5>
+              <p>Máximo 15 personas</p>
+            </div>
+            <div class="col-md-6">
+              <h5><i class="fas fa-tag me-2 text-success"></i>Precio</h5>
+              <p>Desde $40 USD por persona</p>
+              <h5><i class="fas fa-info-circle me-2 text-success"></i>Incluye</h5>
+              <p>Guía bilingüe, refrigerio, agua, chaleco salvavidas</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-success">Reservar ahora</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="tourModal3" tabindex="-1" aria-labelledby="tourModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="tourModalLabel3">Visita a Comunidades</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="https://cdn.pixabay.com/photo/2017/07/12/08/35/amazon-2496255_1280.jpg" alt="Visita a Comunidades" class="modal-img mb-4">
+          <h4>Detalles del Tour</h4>
+          <p>Sumérgete en la cultura amazónica visitando comunidades indígenas que mantienen vivas sus tradiciones ancestrales. Conocerás sus artesanías, métodos de caza y pesca, medicina tradicional y podrás participar en rituales y danzas típicas, todo bajo el respeto a sus costumbres.</p>
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <h5><i class="far fa-clock me-2 text-success"></i>Duración</h5>
+              <p>5-6 horas</p>
+              <h5><i class="fas fa-user-friends me-2 text-success"></i>Tamaño del grupo</h5>
+              <p>Máximo 12 personas</p>
+            </div>
+            <div class="col-md-6">
+              <h5><i class="fas fa-tag me-2 text-success"></i>Precio</h5>
+              <p>Desde $45 USD por persona</p>
+              <h5><i class="fas fa-info-circle me-2 text-success"></i>Incluye</h5>
+              <p>Guía bilingüe, almuerzo típico, transporte, contribución a la comunidad</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-success">Reservar ahora</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="tourModal4" tabindex="-1" aria-labelledby="tourModalLabel4" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="tourModalLabel4">Observación de Fauna</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="https://cdn.pixabay.com/photo/2019/09/12/05/30/amazon-4470881_1280.jpg" alt="Observación de Fauna" class="modal-img mb-4">
+          <h4>Detalles del Tour</h4>
+          <p>Una experiencia diseñada especialmente para los amantes de la naturaleza y la fotografía. Acompañado por guías especializados, recorrerás los mejores puntos para el avistamiento de fauna amazónica, incluyendo monos, aves exóticas, reptiles y los famosos delfines rosados del Amazonas.</p>
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <h5><i class="far fa-clock me-2 text-success"></i>Duración</h5>
+              <p>6-7 horas</p>
+              <h5><i class="fas fa-user-friends me-2 text-success"></i>Tamaño del grupo</h5>
+              <p>Máximo 8 personas</p>
+            </div>
+            <div class="col-md-6">
+              <h5><i class="fas fa-tag me-2 text-success"></i>Precio</h5>
+              <p>Desde $55 USD por persona</p>
+              <h5><i class="fas fa-info-circle me-2 text-success"></i>Incluye</h5>
+              <p>Guía especializado, equipo de observación, almuerzo, transporte en bote</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-success">Reservar ahora</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Transport Section -->
+  <section id="transport" class="transport-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Transporte</h2>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+          <h3 class="mb-4">¿Cómo llegar?</h3>
+          <div class="mb-4">
+            <h5><i class="fas fa-plane me-2 text-primary"></i>En Avión</h5>
+            <p>Vuelos directos a Leticia desde Bogotá con duración aproximada de 2 horas. Las principales aerolíneas que operan esta ruta son Avianca y LATAM.</p>
+          </div>
+          <div class="mb-4">
+            <h5><i class="fas fa-ship me-2 text-primary"></i>Desde Leticia a la Isla</h5>
+            <p>Desde el puerto de Leticia se toman lanchas o botes que en aproximadamente 30 minutos te llevarán a la Isla de los Micos. Este servicio está disponible diariamente entre las 8:00 am y 3:00 pm.</p>
+          </div>
+          <div class="mb-4">
+            <h5><i class="fas fa-map-marked-alt me-2 text-primary"></i>Tours Organizados</h5>
+            <p>La mayoría de hospedajes en Leticia ofrecen paquetes que incluyen el transporte ida y vuelta a la isla, así como guías turísticos que enriquecerán tu experiencia.</p>
+          </div>
+          <div>
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-outline-primary" id="btn-es">Español</button>
+              <button type="button" class="btn btn-outline-primary" id="btn-en">English</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1021890.2406403123!2d-70.76357427883389!3d-3.8694921673687434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91f3e9c1c671b10f%3A0xd2074c3eac182a15!2sIsla%20de%20los%20Micos!5e0!3m2!1sen!2sus!4v1622575227681!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Food Section -->
+  <section id="food" class="food-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Comida Típica</h2>
+      </div>
+      <div class="swiper-container" data-aos="fade-up">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="food-slide">
+              <div class="food-img">
+                <img src="https://cdn.pixabay.com/photo/2019/05/10/07/49/amazon-4192471_1280.jpg" alt="Pirarucu">
+              </div>
+              <div class="food-info">
+                <h4>Pirarucu</h4>
+                <p>Uno de los peces de agua dulce más grandes del mundo, preparado en diversas formas: a la plancha, en caldos o ahumado.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="food-slide">
+              <div class="food-img">
+                <img src="https://cdn.pixabay.com/photo/2019/02/16/15/01/amazon-4000951_1280.jpg" alt="Mojojoy">
+              </div>
+              <div class="food-info">
+                <h4>Mojojoy</h4>
+                <p>Una experiencia gastronómica ancestral: larvas de escarabajo asadas que son una importante fuente de proteína para las comunidades amazónicas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="food-slide">
+              <div class="food-img">
+                <img src="https://cdn.pixabay.com/photo/2017/03/31/18/52/fruit-bowl-2191912_1280.jpg" alt="Frutas Amazónicas">
+              </div>
+              <div class="food-info">
+                <h4>Frutas Amazónicas</h4>
+                <p>Prueba el arazá, copoazú, aguaje, açaí y otras frutas exóticas en jugos, postres o en su forma natural.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="food-slide">
+              <div class="food-img">
+                <img src="https://cdn.pixabay.com/photo/2018/06/21/08/47/potatoes-3488245_1280.jpg" alt="Casabe">
+              </div>
+              <div class="food-info">
+                <h4>Casabe</h4>
+                <p>Pan tradicional indígena elaborado a partir de la yuca brava, perfecto para acompañar pescados y guisos típicos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="food-slide">
+              <div class="food-img">
+                <img src="https://cdn.pixabay.com/photo/2018/09/17/17/27/banana-leaf-3684898_1280.jpg" alt="Juane">
+              </div>
+              <div class="food-info">
+                <h4>Juane</h4>
+                <p>Arroz con pollo, huevos y aceitunas envuelto en hojas de bijao y cocido, un plato emblemático de la gastronomía amazónica.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accommodation Section -->
+  <section id="accommodation" class="accommodation-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Hospedaje</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="lodge-card">
+            <div class="lodge-img">
+              <img src="https://cdn.pixabay.com/photo/2017/09/30/20/06/lodge-2803201_1280.jpg" alt="Amazonas Eco Lodge">
+            </div>
+            <div class="lodge-body">
+              <h4 class="lodge-title">Amazonas Eco Lodge</h4>
+              <p class="mb-3">Cabañas ecológicas inmersas en la selva con vistas al río. Experiencia auténtica con comodidades modernas.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-success fw-bold">$120 USD / noche</span>
+                <button class="btn btn-sm btn-outline-success">Reservar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="lodge-card">
+            <div class="lodge-img">
+              <img src="https://cdn.pixabay.com/photo/2021/11/05/12/26/hotel-6770728_1280.jpg" alt="Hotel Anaconda">
+            </div>
+            <div class="lodge-body">
+              <h4 class="lodge-title">Hotel Anaconda</h4>
+              <p class="mb-3">Ubicado en Leticia, ofrece habitaciones cómodas, piscina, restaurante y organiza excursiones a la Isla.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-success fw-bold">$85 USD / noche</span>
+                <button class="btn btn-sm btn-outline-success">Reservar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="lodge-card">
+            <div class="lodge-img">
+              <img src="https://cdn.pixabay.com/photo/2019/09/24/02/48/accomodation-4499901_1280.jpg" alt="Reserva Natural Tanimboca">
+            </div>
+            <div class="lodge-body">
+              <h4 class="lodge-title">Reserva Natural Tanimboca</h4>
+              <p class="mb-3">Alojamiento en casas en los árboles que ofrecen una experiencia única en medio del dosel amazónico.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-success fw-bold">$150 USD / noche</span>
+                <button class="btn btn-sm btn-outline-success">Reservar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="lodge-card">
+            <div class="lodge-img">
+              <img src="https://cdn.pixabay.com/photo/2021/12/12/17/30/hotel-6865551_1280.jpg" alt="Decameron Leticia">
+            </div>
+            <div class="lodge-body">
+              <h4 class="lodge-title">Decameron Leticia</h4>
+              <p class="mb-3">Resort todo incluido con amplias instalaciones, perfecto para familias y viajeros que buscan confort.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-success fw-bold">$180 USD / noche</span>
+                <button class="btn btn-sm btn-outline-success">Reservar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="500">
+          <div class="lodge-card">
+            <div class="lodge-img">
+              <img src="https://cdn.pixabay.com/photo/2019/11/06/08/43/eco-tourism-4606018_1280.jpg" alt="Calanoa Amazonas">
+            </div>
+            <div class="lodge-body">
+              <h4 class="lodge-title">Calanoa Amazonas</h4>
+              <p class="mb-3">Centro artístico y natural que combina alojamiento ecológico con talleres culturales y artísticos.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-success fw-bold">$130 USD / noche</span>
+                <button class="btn btn-sm btn-outline-success">Reservar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="lodge-card">
+            <div class="lodge-img">
+              <img src="https://cdn.pixabay.com/photo/2018/02/24/17/17/window-3178666_1280.jpg" alt="Maloka Amazonas">
+            </div>
+            <div class="lodge-body">
+              <h4 class="lodge-title">Maloka Amazonas</h4>
+              <p class="mb-3">Alojamiento en malocas tradicionales adaptadas para turistas, administrado por comunidades indígenas locales.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="text-success fw-bold">$70 USD / noche</span>
+                <button class="btn btn-sm btn-outline-success">Reservar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Contacto y Redes Sociales</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+          <div class="contact-form">
+            <h4 class="mb-4">Envíanos un mensaje</h4>
+            <form id="contact-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Asunto</label>
+                <select class="form-select" id="subject" required>
+                  <option value="" selected disabled>Selecciona una opción</option>
+                  <option value="info">Solicitud de información</option>
+                  <option value="booking">Reserva</option>
+                  <option value="feedback">Comentarios</option>
+                  <option value="other">Otro</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-success" id="submit-form">Enviar Mensaje</button>
+              <div class="mt-3" id="form-status"></div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="mb-5">
+            <h4 class="mb-4">Información de Contacto</h4>
+            <ul class="list-unstyled">
+              <li class="mb-3"><i class="fas fa-map-marker-alt me-2 text-success"></i>Oficina Principal: Calle 10 #4-25, Leticia, Amazonas, Colombia</li>
+              <li class="mb-3"><i class="fas fa-phone me-2 text-success"></i>+57 (8) 592-7100</li>
+              <li class="mb-3"><i class="fas fa-envelope me-2 text-success"></i>info@colorsofcolombia.com</li>
+              <li class="mb-3"><i class="fas fa-clock me-2 text-success"></i>Lunes - Sábado: 8:00 AM - 6:00 PM</li>
+            </ul>
+          </div>
+          <div class="social-icons">
+            <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
+            <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
+            <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
+            <a href="javascript:void(0)"><i class="fab fa-youtube"></i></a>
+            <a href="javascript:void(0)"><i class="fab fa-tripadvisor"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title">Galería de Viajeros</h2>
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-3 mb-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="gallery-item">
+            <img src="https://cdn.pixabay.com/photo/2020/11/28/02/17/macaw-5783645_1280.jpg" alt="Macaw" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="gallery-item">
+            <img src="https://cdn.pixabay.com/photo/2019/10/18/03/48/wild-4558132_1280.jpg" alt="Monkey" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="gallery-item">
+            <img src="https://cdn.pixabay.com/photo/2016/11/14/04/36/rays-1822664_1280.jpg" alt="Amazon" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4" data-aos="zoom-in" data-aos-delay="400">
+          <div class="gallery-item">
+            <img src="https://cdn.pixabay.com/photo/2016/05/02/13/17/wildlife-1367217_1280.jpg" alt="Frog" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4" data-aos="zoom-in" data-aos-delay="500">
+          <div class="gallery-item">
+            <img src="https://cdn.pixabay.com/photo/2021/08/25/20/34/tourism-6574541_1280.jpg" alt="Tourist" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4" data-aos="zoom-in" data-aos-delay="600">
+          <div class="gallery-item">
+            <img src="https://cdn.pixabay.com/photo/2016/10/23/17/06/amazon-river-1763729_1280.jpg" alt="River" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4" data-aos="zoom-in" data-aos-delay="700">
+          <div class="gallery-item">
+            <img src="https://cdn.pixabay.com/photo/2018/04/19/03/09/brazil-3332840_1280.jpg" alt="Forest" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4" data-aos="zoom-in" data-aos-delay="800">
+          <div class="gallery-item">
+            <img src="https://cdn.pixabay.com/photo/2020/01/13/18/26/colombia-4763561_1280.jpg" alt="Culture" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="https://cdn.pixabay.com/photo/2021/06/04/10/29/man-6309454_1280.jpg" alt="Testimonial">
+            </div>
+            <p class="testimonial-quote">"Una experiencia increíble. Los monos saltaban sobre nuestros hombros, la naturaleza era impresionante y los guías muy conocedores. ¡Volveré con toda mi familia!"</p>
+            <p class="testimonial-author">Carlos Rodríguez, España</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="https://cdn.pixabay.com/photo/2016/11/29/13/14/attractive-1869761_1280.jpg" alt="Testimonial">
+            </div>
+            <p class="testimonial-quote">"The Amazon exceeded all my expectations. The Isla de los Micos tour was the highlight of our trip to Colombia. The biodiversity is simply mind-blowing!"</p>
+            <p class="testimonial-author">Sarah Johnson, USA</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="https://cdn.pixabay.com/photo/2018/02/16/14/38/portrait-3157821_1280.jpg" alt="Testimonial">
+            </div>
+            <p class="testimonial-quote">"Ver a los monos en su hábitat natural fue mágico. Las comunidades indígenas nos enseñaron mucho sobre la selva y su cultura. Una aventura que nunca olvidaré."</p>
+            <p class="testimonial-author">María Fernández, Colombia</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <div class="footer-logo">
+            <img src="https://cdn.pixabay.com/photo/2016/10/24/09/40/colombia-1765615_960_720.png" alt="Discover Colombia Logo" class="img-fluid">
+          </div>
+          <p>Descubre la magia de la Amazonía colombiana con nosotros. Tours personalizados, experiencias auténticas y aventuras inolvidables en la Isla de los Micos y sus alrededores.</p>
+        </div>
+        <div class="col-md-4 col-lg-2 mb-4 mb-md-0">
+          <div class="footer-links">
+            <h5>Enlaces Rápidos</h5>
+            <ul>
+              <li><a href="#info">Información General</a></li>
+              <li><a href="#tips">Tips del Lugar</a></li>
+              <li><a href="#tours">Tours y Actividades</a></li>
+              <li><a href="#transport">Transporte</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2 mb-4 mb-md-0">
+          <div class="footer-links">
+            <h5>Más Información</h5>
+            <ul>
+              <li><a href="javascript:void(0)">Quiénes Somos</a></li>
+              <li><a href="javascript:void(0)">Sostenibilidad</a></li>
+              <li><a href="javascript:void(0)">Blog de Viajes</a></li>
+              <li><a href="javascript:void(0)">Preguntas Frecuentes</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <div class="footer-links">
+            <h5>Suscríbete</h5>
+            <p>Recibe nuestras últimas noticias y ofertas especiales.</p>
+            <form class="mt-3">
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Tu correo electrónico" aria-label="Email" aria-describedby="button-addon2">
+                <button class="btn btn-warning" type="button" id="button-addon2">Suscribirse</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+            <p>&copy; 2025 Discover the Colors of Colombia. Todos los derechos reservados.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <a href="javascript:void(0)" class="me-3">Términos y Condiciones</a>
+            <a href="javascript:void(0)">Política de Privacidad</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="btn-floating" id="scrollToTop">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="isla_micos.js"></script>
+</body>
+</html>

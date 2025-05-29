@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colors of my land by Colombia</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="javascript:void(0)">
+          <p><img src="/imgs/Colombia.png" alt="Colombia Logo"><span data-i18n-key="brand">Colombia</span></p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about" data-i18n-key="navAbout">About Colombia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gastronomy" data-i18n-key="navGastronomy">Gastronomy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destinations" data-i18n-key="navDestinations">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#plan" data-i18n-key="navPlan">Plan Your Trip</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#map-colombia" data-i18n-key="navMap">Colombia Map</a>
+            </li>
+            <li class="nav-item">
+              <!-- Elfsight Website Translator | Untitled Website Translator -->
+            <script src="https://static.elfsight.com/platform/platform.js" async></script>
+            <div class="elfsight-app-50dbdad7-af3e-4f11-9d3a-801360e263d0" data-elfsight-app-lazy></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1533699224246-6dc3b3ed3304?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sb21iaWF8ZW58MHx8MHx8fDA%3D'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title" data-i18n-key="heroTitle">Discover the Colors of Colombia</h1>
+      <p class="hero-subtitle" data-i18n-key="heroSubtitle">A Land of Diversity, Culture and Nature</p>
+      <div class="hero-buttons">
+        <a href="#about" class="btn btn-primary btn-hero btn-explore" data-i18n-key="exploreBtn">Explore Colombia</a>
+        <a href="#plan" class="btn btn-primary btn-hero btn-planning" data-i18n-key="planBtn">Start Planning</a>
+        <a href="#destinations" class="btn btn-primary btn-hero btn-destinations" data-i18n-key="destinationsBtn">Top Destinations</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Colombia Section -->
+  <section id="about" class="about-colombia">
+    <div class="wayuu-pattern"></div>
+    <div class="container">
+      <h2 class="section-title fade-in" data-i18n-key="aboutTitle">About Colombia</h2>
+
+      <div class="row align-items-center">
+        <!-- Contenedor Izquierdo: Carrusel de Imágenes -->
+        <div class="col-md-6">
+          <div id="aboutCarousel" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="20000">
+            <div class="carousel-inner h-100">
+              <div class="carousel-item active h-100">
+                <img src="https://razonpublica.com/wp-content/uploads/2024/11/660458a9cd534.png" class="d-block w-100 img-fluid rounded h-100" style="object-fit: cover;">
+              </div>
+              <div class="carousel-item h-100">
+                <img src="https://maravillasdelguejar.com/wp-content/uploads/2025/01/Joyas-escondidas-en-Colombia-para-visitar-en-2025.jpg" class="d-block w-100 img-fluid rounded h-100" style="object-fit: cover;">
+              </div>
+              <div class="carousel-item h-100">
+                <img src="https://imagenes.eltiempo.com/files/image_1200_600/uploads/2017/03/08/58c0928ee4412.jpeg" alt="Colombia Borders" class="d-block w-100 img-fluid rounded h-100" style="object-fit: cover;">
+              </div>
+              <div class="carousel-item h-100">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/YAEL_PHOTOS_898.jpg/1200px-YAEL_PHOTOS_898.jpg" class="d-block w-100 img-fluid rounded h-100" style="object-fit: cover;">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Contenedor Derecho: Información -->
+        <div class="col-md-6">
+          <p></p>
+          <h3 class="text-success" data-i18n-key="historyTitle">History & Geography</h3>
+          <p>Colombia's story spans from ancient indigenous civilizations to Spanish colonization and independence. Today, it stands as one of South America's most diverse nations, bordered by Panama, Venezuela, Brazil, Peru, and Ecuador.</p>
+          <p>With territories spanning across the Amazon rainforest, Andean highlands, Caribbean and Pacific coastlines, and vast plains, Colombia hosts an incredible variety of ecosystems in one country.</p>
+          <div class="row text-center mt-4">
+            <div class="col-6">
+              <div class="icon-box">
+                <div class="icon-circle bg-primary text-white mb-2" style="display: inline-block; text-align: center;">
+                  <i class="fas fa-globe-americas" style="font-size: 2.2rem; text-align: center; margin-top: 12px;"></i>
+                </div>
+                <p class="fw-bold">5 Major Ecosystems</p>
+                <small>Andes, Amazon, Caribbean, Pacific, and Orinoco</small>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="icon-box">
+                <div class="icon-circle bg-success text-white mb-2" style="display: inline-block; text-align: center;">
+                  <i class="fas fa-water" style="font-size: 2.2rem; margin-top: 12px;"></i>
+                </div>
+                <p class="fw-bold">Two Coastlines</p>
+                <small>Caribbean and Pacific Ocean access</small>
+              </div>
+            </div>
+            <div class="col-6 mt-4">
+              <div class="icon-box">
+                <div class="icon-circle bg-warning text-white mb-2" style="display: inline-block; text-align: center;">
+                  <i class="fas fa-users" style="font-size: 2.2rem; margin-top: 13px;"></i>
+                </div>
+                <p class="fw-bold">Diverse Population</p>
+                <small>Indigenous, African, European heritage</small>
+              </div>
+            </div>
+            <div class="col-6 mt-4">
+              <div class="icon-box">
+                <div class="icon-circle bg-danger text-white mb-2" style="display: inline-block; text-align: center;">
+                  <i class="fas fa-language" style="font-size: 2.2rem; margin-top: 13px;"></i>
+                </div>
+                <p class="fw-bold">Spanish Language</p>
+                <small>Plus 65+ indigenous languages</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <style>
+    #aboutCarousel .carousel-inner img {
+      max-height: 100%;
+      object-fit: cover;
+    }
+
+    @media (max-width: 768px) {
+      #aboutCarousel {
+        height: auto;
+      }
+
+      #aboutCarousel .carousel-inner img {
+        max-height: 300px;
+      }
+    }
+
+    .icon-circle {
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+    }
+  </style>
+  <!-- Map Colombia Section -->
+  <section id="map-colombia" class="map-colombia">
+    <div class="container">
+      <h2 class="section-title fade-in" data-i18n-key="mapTitle">Colombia Map</h2>
+      <p class="map-description" style="text-align: center; font-size:1.1rem; color:#333; margin-bottom:18px;">Explore the interactive map of Colombia: click each department to discover its colors and top destinations.</p>
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="map-container">
+            <div id="map" style="width:800px; min-height:600px; height:600px;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gastronomy Section -->
+  <section id="gastronomy" class="gastronomy">
+    <div class="wayuu-pattern"></div>
+    <div class="container">
+      <h2 class="section-title fade-in" data-i18n-key="gastronomyTitle">Colombian Gastronomy</h2>
+
+      <div class="row g-4 fade-in">
+        <div class="col-lg-4 col-md-6">
+          <div class="dish-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bandeja_paisa%2C_plato_Colombiano.jpg/960px-Bandeja_paisa%2C_plato_Colombiano.jpg" alt="Bandeja Paisa" class="dish-img">
+            <div class="dish-body">
+              <h4 class="dish-title" data-i18n-key="bandejaPaisaTitle">Bandeja Paisa</h4>
+              <p class="dish-region" data-i18n-key="antioquiaRegion">Antioquia Region</p>
+              <p data-i18n-key="bandejaPaisaDesc">Colombia's most iconic dish featuring beans, rice, ground meat, chorizo, fried egg, plantain, avocado, and arepa. A hearty meal that represents the Paisa culture.</p>
+              <a href="javascript:void(0)" class="btn btn-culinary" data-i18n-key="bookCulinaryTour">Book Culinary Tour</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="dish-card">
+            <img src="https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/3964b77d9ff84585e562ad1bd1205e25.jpg" alt="Ajiaco" class="dish-img">
+            <div class="dish-body">
+              <h4 class="dish-title" data-i18n-key="ajiacoTitle">Ajiaco Santafereño</h4>
+              <p class="dish-region" data-i18n-key="bogotaRegion">Bogotá & Andean Region</p>
+              <p data-i18n-key="ajiacoDesc">A hearty soup made with three varieties of potatoes, corn, chicken, and a native herb called guascas. Served with cream, capers, and avocado on the side.</p>
+              <a href="javascript:void(0)" class="btn btn-culinary" data-i18n-key="bookCulinaryTour">Book Culinary Tour</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="dish-card">
+            <img src="https://www.pequeocio.com/wp-content/uploads/2022/04/arepas-colombianas.jpg" alt="Arepas" class="dish-img">
+            <div class="dish-body">
+              <h4 class="dish-title" data-i18n-key="arepasTitle">Arepas</h4>
+              <p class="dish-region" data-i18n-key="nationwideRegion">Nationwide</p>
+              <p data-i18n-key="arepasDesc">These corn cakes are a staple of Colombian cuisine. Made from ground maize dough and served in various styles across the country - plain, filled with cheese, eggs, or meat.</p>
+              <a href="javascript:void(0)" class="btn btn-culinary" data-i18n-key="bookCulinaryTour">Book Culinary Tour</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="dish-card">
+            <img src="https://thethoroughtripper.com/wp-content/uploads/2024/03/IMG_2446-1.jpeg" alt="Seafood" class="dish-img">
+            <div class="dish-body">
+              <h4 class="dish-title" data-i18n-key="seafoodTitle">Caribbean Seafood</h4>
+              <p class="dish-region" data-i18n-key="caribbeanRegion">Caribbean Coast</p>
+              <p data-i18n-key="seafoodDesc">Fresh fish and seafood prepared with coconut milk, plantains, and tropical seasonings. Try the famous cazuela de mariscos (seafood stew) or fried mojarra fish.</p>
+              <a href="javascript:void(0)" class="btn btn-culinary" data-i18n-key="bookCulinaryTour">Book Culinary Tour</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="dish-card">
+            <img src="https://lacacerola.co/wp-content/uploads/2022/02/Natural-Juices-1.jpg" alt="Tropical Juices" class="dish-img">
+            <div class="dish-body">
+              <h4 class="dish-title" data-i18n-key="tropicalJuicesTitle">Tropical Fruit Juices</h4>
+              <p class="dish-region" data-i18n-key="nationwideRegion">Nationwide</p>
+              <p data-i18n-key="tropicalJuicesDesc">Colombia's biodiversity means an incredible variety of exotic fruits. Try refreshing juices made from lulo, maracuyá (passion fruit), guanábana (soursop), or zapote.</p>
+              <a href="javascript:void(0)" class="btn btn-culinary" data-i18n-key="bookCulinaryTour">Book Culinary Tour</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="dish-card">
+            <img src="https://www.goya.com/wp-content/uploads/2023/10/colombian-beef-and-pork-empanadas.jpg" alt="Empanadas" class="dish-img">
+            <div class="dish-body">
+              <h4 class="dish-title" data-i18n-key="empanadasTitle">Empanadas</h4>
+              <p class="dish-region" data-i18n-key="nationwideRegion">Nationwide</p>
+              <p data-i18n-key="empanadasDesc">Golden fried pastries filled with meat, potatoes, or cheese. Each region has its own version, typically served with spicy ají sauce on the side.</p>
+              <a href="javascript:void(0)" class="btn btn-culinary" data-i18n-key="bookCulinaryTour">Book Culinary Tour</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destinations Section -->
+  <section id="destinations" class="destinations">
+    <div class="wayuu-pattern"></div>
+    <div class="container">
+      <h2 class="section-title fade-in" data-i18n-key="destinationsTitle">5 Unmissable Destinations</h2>
+
+      <div class="swiper destination-swiper fade-in">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="destination-card">
+              <img src="https://caracol.com.co/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fprisaradioco%2F6S2ARO2CRFAGJO2FCIJ2JAUO2U.jpg?auth=5e409efca6efc398b2c9f9af667c1f57e51c80d350dd130b7d2c86e6180ffead&height=800&width=1200&quality=70&smart=true" alt="Caño Cristales" class="destination-img">
+              <div class="destination-overlay">
+                <h3 class="destination-title" data-i18n-key="canoCristalesTitle">Caño Cristales</h3>
+                <p data-i18n-key="canoCristalesDesc">Known as "The River of Five Colors" or "The Liquid Rainbow," this stunning river in the Serranía de la Macarena National Park displays spectacular colors due to unique plants growing on the riverbed.</p>
+                <a href="/Destinos/Caño Cristales/caño_cristales.html" class="btn btn-destination" data-i18n-key="verMasBtn">View more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="destination-card">
+              <img src="https://wiwatour.com/wp-content/uploads/2021/02/la-ciudad-perdida-de-colombia.webp" alt="Ciudad Perdida" class="destination-img">
+              <div class="destination-overlay">
+                <h3 class="destination-title" data-i18n-key="ciudadPerdidaTitle">Ciudad Perdida</h3>
+                <p data-i18n-key="ciudadPerdidaDesc">This archaeological site in the Sierra Nevada de Santa Marta mountains predates Machu Picchu by 650 years. The multi-day trek takes you through lush jungle to the ancient Tayrona civilization ruins.</p>
+                <a href="/Destinos/Cuidad_Perdida/ciudad perdida.html" class="btn btn-destination" data-i18n-key="verMasBtn">View more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="destination-card">
+              <img src="https://static.roadtrip.travel/media/roadtrips/avistamiento-de-ballenas-en-bahia-malaga-santuario-natural-del-pacifico-colombiano-3-dias-1200-ac87c9e.jpg" alt="Uramba Bahía Málaga" class="destination-img">
+              <div class="destination-overlay">
+                <h3 class="destination-title" data-i18n-key="urambaBahiaTitle">Uramba Bahía Málaga</h3>
+                <p data-i18n-key="urambaBahiaDesc">This Pacific coast national park is famous for the seasonal migration of humpback whales. Visit between July and November to witness these majestic creatures in their breeding grounds.</p>
+                <a href="/Destinos/Bahia_Malaga/Uramba Bahía Málaga.html" class="btn btn-destination" data-i18n-key="verMasBtn">View more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="destination-card">
+              <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/ea/db/4f/photo1jpg.jpg?w=1200&h=-1&s=1" alt="Isla de los Micos" class="destination-img">
+              <div class="destination-overlay">
+                <h3 class="destination-title" data-i18n-key="islaMicosTitle">Isla de los Micos</h3>
+                <p data-i18n-key="islaMicosDesc">Located in the Amazon rainforest near Leticia, this island is home to hundreds of squirrel monkeys that roam freely. Visitors can interact with these friendly creatures in their natural habitat.</p>
+                <a href="/Destinos/Isla_micos/Isla de los micos.html" class="btn btn-destination" data-i18n-key="verMasBtn">View more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="destination-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Cabo_de_la_Vela%2C_Colombia.jpg/1200px-Cabo_de_la_Vela%2C_Colombia.jpg" alt="Cabo de la Vela" class="destination-img">
+              <div class="destination-overlay">
+                <h3 class="destination-title" data-i18n-key="caboVelaTitle">Cabo de la Vela</h3>
+                <p data-i18n-key="caboVelaDesc">This remote area in the La Guajira peninsula offers otherworldly landscapes where desert meets the Caribbean Sea. Experience Wayuu indigenous culture, stunning beaches, and spectacular sunsets.</p>
+                <a href="/Destinos/Cabo_Vela/Cabo de la vela.html" class="btn btn-destination" data-i18n-key="verMasBtn">View more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Plan Your Trip Section -->
+  <section id="plan" class="plan-trip">
+    <div class="wayuu-pattern"></div>
+    <div class="container">
+      <h2 class="section-title fade-in" data-i18n-key="planTitle">Plan your trip</h2>
+
+      <div class="row g-4 fade-in">
+        <div class="col-lg-6">
+          <div class="plan-card">
+            <div class="plan-icon">
+              <i class="fas fa-plane-arrival"></i>
+            </div>
+            <h3 class="plan-title" data-i18n-key="howToGetThereTitle">How to Get There</h3>
+
+            <div class="accordion" id="accordionTravel">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInternational">
+                    International Flights
+                  </button>
+                </h2>
+                <div id="collapseInternational" class="accordion-collapse collapse show" data-bs-parent="#accordionTravel">
+                  <div class="accordion-body">
+                    <p data-i18n-key="internationalFlightsDesc">Colombia has multiple international airports with direct flights from major cities worldwide. The main international gateways are:</p>
+                    <ul>
+                      <li data-i18n-key="elDoradoAirport">El Dorado International Airport (Bogotá)</li>
+                      <li data-i18n-key="joseMariaCordovaAirport">José María Córdova International Airport (Medellín)</li>
+                      <li data-i18n-key="rafaelNunezAirport">Rafael Núñez International Airport (Cartagena)</li>
+                      <li data-i18n-key="alfonsoBonillaAragonAirport">Alfonso Bonilla Aragón International Airport (Cali)</li>
+                    </ul>
+                    <p data-i18n-key="majorAirlinesDesc">Major airlines serving Colombia include Avianca, LATAM, American Airlines, Delta, United, Air France, Iberia, and more.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDomestic">
+                    Domestic Transportation
+                  </button>
+                </h2>
+                <div id="collapseDomestic" class="accordion-collapse collapse" data-bs-parent="#accordionTravel">
+                  <div class="accordion-body">
+                    <p data-i18n-key="domesticTransportationDesc">Once in Colombia, you have several options to travel between cities and regions:</p>
+                    <ul>
+                      <li><strong data-i18n-key="domesticFlights">Domestic Flights:</strong> The quickest way to cover long distances. Avianca, LATAM, and Viva Air offer extensive domestic networks.</li>
+                      <li><strong data-i18n-key="buses">Buses:</strong> Comfortable and affordable long-distance buses connect major cities.</li>
+                      <li><strong data-i18n-key="taxisRideSharing">Taxis and Ride-sharing:</strong> Widely available in cities, with Uber and similar apps operating in major urban areas.</li>
+                      <li><strong data-i18n-key="carRentals">Car Rentals:</strong> Available in major cities, though driving in Colombia can be challenging in certain areas.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="plan-card">
+            <div class="plan-icon">
+              <i class="fas fa-passport"></i>
+            </div>
+            <h3 class="plan-title" data-i18n-key="entryRequirementsTitle">Entry Requirements & Health</h3>
+            <div class="accordion" id="accordionRequirements">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVisa">
+                    Visa Requirements
+                  </button>
+                </h2>
+                <div id="collapseVisa" class="accordion-collapse collapse show" data-bs-parent="#accordionRequirements">
+                  <div class="accordion-body">
+                    <p data-i18n-key="visaRequirementsDesc">Visitors from many countries can enter Colombia without a visa for up to 90 days, including travelers from the USA, Canada, EU countries, Australia, and most Latin American nations.</p>
+                    <p data-i18n-key="visaRequirementsListTitle">You'll need:</p>
+                    <ul>
+                      <li data-i18n-key="validPassport">A passport valid for at least 6 months beyond your stay</li>
+                      <li data-i18n-key="returnOnwardTicket">Return/onward ticket</li>
+                      <li data-i18n-key="proofOfAccommodation">Proof of accommodation</li>
+                    </ul>
+                    <p data-i18n-key="checkConsulateInfo">Check with the Colombian consulate in your country for the most current information.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHealth">
+                    Health & Vaccinations
+                  </button>
+                </h2>
+                <div id="collapseHealth" class="accordion-collapse collapse" data-bs-parent="#accordionRequirements">
+                  <div class="accordion-body">
+                    <p data-i18n-key="vaccinationsRecommendation">Recommended vaccinations for Colombia include:</p>
+                    <ul>
+                      <li data-i18n-key="yellowFeverVaccine">Yellow Fever (required if you're entering from a country with risk of yellow fever)</li>
+                      <li data-i18n-key="hepatitisAVaccine">Hepatitis A & B</li>
+                      <li data-i18n-key="typhoidVaccine">Typhoid</li>
+                      <li data-i18n-key="tetanusDiphtheriaVaccine">Tetanus-diphtheria</li>
+                      <li data-i18n-key="mmrVaccine">Measles-mumps-rubella (MMR)</li>
+                    </ul>
+                    <p data-i18n-key="malariaPrevention">Malaria prevention is recommended if visiting rural areas, especially in the Amazon, Pacific coast, or certain lowland regions.</p>
+                    <p data-i18n-key="consultHealthcareProvider">Always consult your healthcare provider or a travel medicine specialist before your trip.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="plan-card">
+            <div class="plan-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3 class="plan-title" data-i18n-key="safetyRecommendationsTitle">Safety & Recommendations</h3>
+            <div class="accordion" id="accordionSafety">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSafety">
+                    Safety Tips
+                  </button>
+                </h2>
+                <div id="collapseSafety" class="accordion-collapse collapse show" data-bs-parent="#accordionSafety">
+                  <div class="accordion-body">
+                    <p data-i18n-key="safetyTipsDesc">Colombia has become much safer for tourists in recent years, but as with any destination, it's important to take basic precautions:</p>
+                    <ul>
+                      <li data-i18n-key="stickToTouristAreas">Stick to tourist areas and ask locals or hotel staff about areas to avoid</li>
+                      <li data-i18n-key="useOfficialTaxis">Use official taxis or ride-sharing apps rather than hailing street cabs</li>
+                      <li data-i18n-key="keepValuablesSecure">Keep valuables secure and avoid displaying expensive items</li>
+                      <li data-i18n-key="beCautiousATMUsage">Be cautious with ATM usage and carry only necessary amounts of cash</li>
+                      <li data-i18n-key="keepPassportCopy">Keep a photocopy of your passport and store the original in your hotel safe</li>
+                      <li data-i18n-key="registerEmbassy">Register with your country's embassy or consulate when you arrive</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRecommendations">
+                    General Recommendations
+                  </button>
+                </h2>
+                <div id="collapseRecommendations" class="accordion-collapse collapse" data-bs-parent="#accordionSafety">
+                  <div class="accordion-body">
+                    <ul>
+                      <li data-i18n-key="learnBasicSpanish">Learn basic Spanish phrases - Colombians appreciate when visitors try to speak their language</li>
+                      <li data-i18n-key="respectLocalCustoms">Respect local customs and traditions, especially in indigenous areas</li>
+                      <li data-i18n-key="drinkBottledWater">Drink bottled water in most areas</li>
+                      <li data-i18n-key="purchaseTravelInsurance">Purchase travel insurance that includes medical coverage and emergency evacuation</li>
+                      <li data-i18n-key="beAwareAltitudeSickness">Be aware that altitude sickness can affect visitors to Bogotá and other high-altitude areas</li>
+                      <li data-i18n-key="bringSunscreenInsectRepellent">Bring sunscreen and insect repellent, especially when visiting tropical areas</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="plan-card">
+            <div class="plan-icon">
+              <i class="fas fa-coins"></i>
+            </div>
+            <h3 class="plan-title" data-i18n-key="costEstimatesTitle">Cost Estimates</h3>
+            <div class="accordion" id="accordionCosts">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAccommodation">
+                    Accommodation & Food
+                  </button>
+                </h2>
+                <div id="collapseAccommodation" class="accordion-collapse collapse show" data-bs-parent="#accordionCosts">
+                  <div class="accordion-body">
+                    <p><strong data-i18n-key="accommodationPerNight">Accommodation (per night):</strong></p>
+                    <ul>
+                      <li data-i18n-key="budgetHostels">$10-25 USD</li>
+                      <li data-i18n-key="midRangeHotels">$40-80 USD</li>
+                      <li data-i18n-key="luxuryHotels">$100-300+ USD</li>
+                    </ul>
+                    <p><strong data-i18n-key="foodPerMeal">Food (per meal):</strong></p>
+                    <ul>
+                      <li data-i18n-key="streetFood">$2-5 USD</li>
+                      <li data-i18n-key="localRestaurants">$5-15 USD</li>
+                      <li data-i18n-key="fineDining">$30-100 USD</li>
+                    </ul>
+                    <p data-i18n-key="priceNote">Note: Prices tend to be higher in Bogotá, Cartagena, and other major tourist destinations.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseActivities">
+                    Activities & Transportation
+                  </button>
+                </h2>
+                <div id="collapseActivities" class="accordion-collapse collapse" data-bs-parent="#accordionCosts">
+                  <div class="accordion-body">
+                    <p><strong data-i18n-key="toursActivities">Tours and Activities:</strong></p>
+                    <ul>
+                      <li data-i18n-key="museumEntries">$3-10 USD</li>
+                      <li data-i18n-key="dayTours">$30-100 USD</li>
+                      <li data-i18n-key="multiDayExcursions">$200-500+ USD (e.g., Ciudad Perdida trek)</li>
+                    </p>
+                    <p><strong data-i18n-key="transportation">Transportation:</strong></p>
+                    <ul>
+                      <li data-i18n-key="localBusMetro">$0.70-1 USD</li>
+                      <li data-i18n-key="taxiWithinCities">$3-10 USD</li>
+                      <li data-i18n-key="domesticFlightsCost">$50-150 USD one way</li>
+                      <li data-i18n-key="longDistanceBus">$10-30 USD</li>
+                    </ul>
+                    <p data-i18n-key="budgetEstimates">A reasonable budget for Colombia might be $40-60 USD per day for budget travelers, $100-200 USD for mid-range, and $200+ USD for luxury travel.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- /row -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <p><img src="/imgs/Colombia.png" alt="Colombia Logo" class="footer-logo">Colombia</p>
+          <p data-i18n-key="footerDescription">Official tourism promotion website for Colombia. Discover the vibrant colors, rich culture, and natural beauty of this diverse South American destination.</p>
+          <div class="social-icons mt-3">
+            <a href="javascript:void(0)"><i class="fab fa-whatsapp"></i></a>
+            <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-heading" data-i18n-key="quickLinksTitle">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#about" data-i18n-key="quickLinkAbout">About Colombia</a></li>
+            <li><a href="#gastronomy" data-i18n-key="quickLinkGastronomy">Gastronomy</a></li>
+            <li><a href="#destinations" data-i18n-key="quickLinkDestinations">Destinations</a></li>
+            <li><a href="#plan" data-i18n-key="quickLinkPlan">Plan Your Trip</a></li>
+            <li><a href="javascript:void(0)" data-i18n-key="quickLinkTravelBlog">Travel Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-heading" data-i18n-key="contactUsTitle">Contact Us</h4>
+          <p><i class="fas fa-envelope me-2"></i> Discovercolorco@gmail.com</p>
+          <p><i class="fas fa-phone me-2"></i> +57 320 4434041</p>
+          <p><i class="fas fa-map-marker-alt me-2"></i> Calle 28 #13A-15, Bogotá, Colombia</p>
+          <div class="mt-3">
+            <span class="sustainability-badge">
+              <i class="fas fa-leaf me-1"></i> Committed to Sustainable Tourism
+            </span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Colors of my land by Colombia. All Rights Reserved. Ministry of Commerce, Industry and Tourism.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Destination Modal -->
+  <div class="modal fade destination-modal" id="destinationModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Destination Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="modalContent"><!-- dynamic content --></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="mapdata.js"></script>
+  <script src="countrymap.js"></script>
+  <!-- <script src="https://www.simplemaps.com/static/js/countrymap.js"></script> -->
+  <script>
+    // runs a Magic Loop by its ID
+    async function runLoop(loopId, payload) {
+      const res = await fetch(`https://magicloops.dev/api/loop/${loopId}/run`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      return res.json();
+    }
+
+    // Initialize Swiper
+    const destinationSwiper = new Swiper('.destination-swiper', {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      pagination: { el: '.swiper-pagination', clickable: true },
+      breakpoints: { 640: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }
+    });
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.custom-navbar');
+      if (window.scrollY > 50) navbar.classList.add('navbar-scrolled');
+      else navbar.classList.remove('navbar-scrolled');
+    });
+
+    // Fade-in on scroll
+    document.addEventListener('DOMContentLoaded', () => {
+      const fadeElements = document.querySelectorAll('.fade-in');
+      const fadeObserver = new IntersectionObserver((entries, obs) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+            obs.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.1 });
+      fadeElements.forEach(el => fadeObserver.observe(el));
+    });
+
+    // Map tooltips
+    document.querySelectorAll('.map-area').forEach(area => {
+      area.addEventListener('mouseenter', () => {
+        const tt = document.getElementById(area.id + 'Tooltip');
+        tt.style.top = area.offsetTop + 'px';
+        tt.style.left = area.offsetLeft + area.offsetWidth + 'px';
+        tt.style.display = 'block';
+      });
+      area.addEventListener('mouseleave', () => {
+        document.getElementById(area.id + 'Tooltip').style.display = 'none';
+      });
+    });
+
+    // Destination modal: fetch via Magic Loop
+    const destModal = document.getElementById('destinationModal');
+    destModal.addEventListener('show.bs.modal', async event => {
+      const btn = event.relatedTarget;
+      const destId = btn.getAttribute('data-destination');
+      const modalContent = document.getElementById('modalContent');
+
+      // call Destination Info loop
+      const data = await runLoop(
+        '37201941-b56b-4188-93a3-623edf938c15',
+        { destinationId: destId, language: 'en' }
+      );
+
+      modalContent.innerHTML = `
+        <img src="${data.image}" alt="${data.title}" class="destination-modal-img">
+        <h3>${data.title}</h3>
+        <p>${data.description}</p>
+        <p><strong>Location:</strong> ${data.location}</p>
+        <p><strong>Best time to visit:</strong> ${data.bestTime}</p>
+        <h4>Highlights:</h4>
+        <ul class="destination-features">
+          ${data.features.map(f => `<li>${f}</li>`).join('')}
+        </ul>
+        <div class="d-flex justify-content-between mt-4">
+          <a href="javascript:void(0)" class="btn btn-primary btn-book-tour">Book a Tour</a>
+          <a href="javascript:void(0)" class="btn btn-outline-secondary">View on Map</a>
+        </div>
+      `;
+    });
+
+    // handle booking & inquiry prompts
+    document.body.addEventListener('click', async e => {
+      if (e.target.matches('.btn-book-tour, .btn-culinary')) {
+        const name    = prompt('Your name');
+        const email   = prompt('Your email');
+        const message = prompt('Your message or tour details');
+        if (!name || !email || !message) return alert('All fields required');
+
+        await runLoop(
+          '38000ca9-8e65-4e2d-b7e3-456bf3542270',
+          { name, email, message }
+        );
+        alert('Thank you! Your inquiry has been sent.');
+      }
+    });
+  </script>
+</body>
+</html>

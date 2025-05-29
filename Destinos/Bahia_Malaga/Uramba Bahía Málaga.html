@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parque Nacional Natural Uramba Bahía Málaga</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="uramba_bahia_malaga.css">
+</head>
+<body>
+  <!-- Language Switcher -->
+  <div class="lang-switch" id="langSwitch">
+    <span class="lang-en">🇺🇸 EN</span>
+    <span class="lang-es" style="display: none;">🇪🇸 ES</span>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="javascript:void(0)">
+        <span class="lang-en">Uramba Bahía Málaga</span>
+        <span class="lang-es" style="display: none;">Uramba Bahía Málaga</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#info">
+              <span class="lang-en">About</span>
+              <span class="lang-es" style="display: none;">Acerca de</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tips">
+              <span class="lang-en">Tips</span>
+              <span class="lang-es" style="display: none;">Consejos</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tours">
+              <span class="lang-en">Tours</span>
+              <span class="lang-es" style="display: none;">Tours</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#transportation">
+              <span class="lang-en">Transportation</span>
+              <span class="lang-es" style="display: none;">Transporte</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#food">
+              <span class="lang-en">Food</span>
+              <span class="lang-es" style="display: none;">Comida</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#accommodation">
+              <span class="lang-en">Stay</span>
+              <span class="lang-es" style="display: none;">Hospedaje</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">
+              <span class="lang-en">Contact</span>
+              <span class="lang-es" style="display: none;">Contacto</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <video class="hero-video" autoplay muted loop>
+      <source src="https://cdn.pixabay.com/vimeo/531407790/humpback-whale-76788.mp4?width=1280&hash=9dd79cb8a1a5da8bbb1e9e92baab7eec74c77e0b" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="lang-en">Discover the Colors of Colombia</span>
+        <span class="lang-es" style="display: none;">Descubre los Colores de Colombia</span>
+      </h1>
+      <p class="hero-subtitle">
+        <span class="lang-en">Experience the magic of the Pacific at Bahía Málaga</span>
+        <span class="lang-es" style="display: none;">Vive la magia del Pacífico en Bahía Málaga</span>
+      </p>
+      <div>
+        <button class="btn cta-button cta-primary">
+          <span class="lang-en">Plan Your Trip</span>
+          <span class="lang-es" style="display: none;">Planea tu Viaje</span>
+        </button>
+        <button class="btn cta-button cta-secondary">
+          <span class="lang-en">View Tours</span>
+          <span class="lang-es" style="display: none;">Ver Tours</span>
+        </button>
+        <button class="btn cta-button cta-tertiary">
+          <span class="lang-en">Book Now</span>
+          <span class="lang-es" style="display: none;">Reserva Ahora</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Information Section -->
+  <section id="info" class="info-section">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">
+        <span class="lang-en">About Uramba Bahía Málaga</span>
+        <span class="lang-es" style="display: none;">Sobre Uramba Bahía Málaga</span>
+      </h2>
+      <div class="row align-items-center">
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="map-thumbnail">
+            <img src="https://cdn.pixabay.com/photo/2017/09/12/03/07/colombia-2741233_1280.jpg" alt="Park Map" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6 park-info" data-aos="fade-left">
+          <div class="lang-en">
+            <h3>A Natural Paradise</h3>
+            <p>Uramba Bahía Málaga National Natural Park, located on Colombia's Pacific coast, is one of the country's most biodiverse areas. The park encompasses over 47,000 hectares of marine and coastal ecosystems including mangrove forests, rocky cliffs, and pristine beaches.</p>
+            <h3>Incredible Biodiversity</h3>
+            <p>The park is home to an extraordinary variety of species: 360 species of birds, 150 species of fish, numerous amphibians, reptiles, and mammals. The region's warm waters serve as a nursery for humpback whales (Megaptera novaeangliae) which migrate from the Antarctic between July and October to give birth and mate.</p>
+            <h3>Whale Watching Season</h3>
+            <p>The best time to visit for whale watching is from July to October, when humpback whales arrive in the warm waters of the Colombian Pacific. During this magical season, visitors can observe these majestic creatures breaching, slapping their tails, and caring for their calves.</p>
+          </div>
+          <div class="lang-es" style="display: none;">
+            <h3>Un Paraíso Natural</h3>
+            <p>El Parque Nacional Natural Uramba Bahía Málaga, ubicado en la costa pacífica colombiana, es una de las áreas más biodiversas del país. El parque abarca más de 47,000 hectáreas de ecosistemas marinos y costeros, incluyendo bosques de manglar, acantilados rocosos y playas vírgenes.</p>
+            <h3>Biodiversidad Increíble</h3>
+            <p>El parque alberga una extraordinaria variedad de especies: 360 especies de aves, 150 especies de peces, numerosos anfibios, reptiles y mamíferos. Las cálidas aguas de la región sirven como guardería para las ballenas jorobadas (Megaptera novaeangliae) que migran desde la Antártida entre julio y octubre para dar a luz y aparearse.</p>
+            <h3>Temporada de Avistamiento de Ballenas</h3>
+            <p>La mejor época para visitar y observar ballenas es de julio a octubre, cuando las ballenas jorobadas llegan a las cálidas aguas del Pacífico colombiano. Durante esta temporada mágica, los visitantes pueden observar a estas majestuosas criaturas saltando, golpeando sus colas y cuidando a sus crías.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tips Section -->
+  <section id="tips" class="tips-section">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">
+        <span class="lang-en">Travel Tips</span>
+        <span class="lang-es" style="display: none;">Consejos de Viaje</span>
+      </h2>
+      <div class="row">
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card tip-card">
+            <div class="card-body text-center">
+              <i class="fas fa-suitcase tip-icon"></i>
+              <h4 class="card-title">
+                <span class="lang-en">What to Pack</span>
+                <span class="lang-es" style="display: none;">Qué Empacar</span>
+              </h4>
+              <ul class="list-unstyled">
+                <li class="lang-en">• Light rain gear</li>
+                <li class="lang-es" style="display: none;">• Equipo ligero para lluvia</li>
+                <li class="lang-en">• Waterproof camera</li>
+                <li class="lang-es" style="display: none;">• Cámara resistente al agua</li>
+                <li class="lang-en">• Water shoes</li>
+                <li class="lang-es" style="display: none;">• Zapatos para agua</li>
+                <li class="lang-en">• Biodegradable sunscreen</li>
+                <li class="lang-es" style="display: none;">• Protector solar biodegradable</li>
+                <li class="lang-en">• Light, quick-dry clothing</li>
+                <li class="lang-es" style="display: none;">• Ropa ligera de secado rápido</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card tip-card">
+            <div class="card-body text-center">
+              <i class="fas fa-heartbeat tip-icon"></i>
+              <h4 class="card-title">
+                <span class="lang-en">Health Recommendations</span>
+                <span class="lang-es" style="display: none;">Recomendaciones de Salud</span>
+              </h4>
+              <ul class="list-unstyled">
+                <li class="lang-en">• Use insect repellent</li>
+                <li class="lang-es" style="display: none;">• Usar repelente de insectos</li>
+                <li class="lang-en">• Stay hydrated</li>
+                <li class="lang-es" style="display: none;">• Mantenerse hidratado</li>
+                <li class="lang-en">• Check recommended vaccines</li>
+                <li class="lang-es" style="display: none;">• Verificar vacunas recomendadas</li>
+                <li class="lang-en">• Bring basic first aid kit</li>
+                <li class="lang-es" style="display: none;">• Llevar botiquín básico</li>
+                <li class="lang-en">• Bring medication if needed</li>
+                <li class="lang-es" style="display: none;">• Llevar medicamentos si es necesario</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card tip-card">
+            <div class="card-body text-center">
+              <i class="fas fa-leaf tip-icon"></i>
+              <h4 class="card-title">
+                <span class="lang-en">Sustainable Travel</span>
+                <span class="lang-es" style="display: none;">Viaje Sostenible</span>
+              </h4>
+              <ul class="list-unstyled">
+                <li class="lang-en">• Leave no trace</li>
+                <li class="lang-es" style="display: none;">• No dejar rastro</li>
+                <li class="lang-en">• Support local communities</li>
+                <li class="lang-es" style="display: none;">• Apoyar comunidades locales</li>
+                <li class="lang-en">• Use reef-safe sunscreen</li>
+                <li class="lang-es" style="display: none;">• Usar protector solar seguro para arrecifes</li>
+                <li class="lang-en">• Avoid single-use plastics</li>
+                <li class="lang-es" style="display: none;">• Evitar plásticos de un solo uso</li>
+                <li class="lang-en">• Respect wildlife viewing guidelines</li>
+                <li class="lang-es" style="display: none;">• Respetar las pautas de observación de vida silvestre</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tours & Activities Section -->
+  <section id="tours" class="tours-section">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">
+        <span class="lang-en">Tours & Activities</span>
+        <span class="lang-es" style="display: none;">Tours y Actividades</span>
+      </h2>
+      <div class="row">
+        <div class="col-md-4 mb-4" data-aos="fade-up">
+          <div class="card tour-card">
+            <img src="https://cdn.pixabay.com/photo/2016/11/14/03/38/whale-1822654_1280.jpg" class="card-img-top tour-img" alt="Whale Watching">
+            <div class="card-body">
+              <h5 class="card-title">
+                <span class="lang-en">Whale Watching</span>
+                <span class="lang-es" style="display: none;">Avistamiento de Ballenas</span>
+              </h5>
+              <p class="card-text lang-en">Experience the magic of observing humpback whales in their natural habitat during the mating season.</p>
+              <p class="card-text lang-es" style="display: none;">Experimenta la magia de observar ballenas jorobadas en su hábitat natural durante la temporada de apareamiento.</p>
+              <button class="btn btn-sm btn-outline-primary tour-details-btn" data-tour="whale-watching">
+                <span class="lang-en">Learn More</span>
+                <span class="lang-es" style="display: none;">Más Información</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card tour-card">
+            <img src="https://cdn.pixabay.com/photo/2018/02/25/19/01/mangrove-3181379_1280.jpg" class="card-img-top tour-img" alt="Mangrove Kayaking">
+            <div class="card-body">
+              <h5 class="card-title">
+                <span class="lang-en">Mangrove Kayaking</span>
+                <span class="lang-es" style="display: none;">Kayak por Manglares</span>
+              </h5>
+              <p class="card-text lang-en">Paddle through serene mangrove tunnels and discover the rich ecosystem they support.</p>
+              <p class="card-text lang-es" style="display: none;">Rema a través de serenos túneles de manglares y descubre el rico ecosistema que sustentan.</p>
+              <button class="btn btn-sm btn-outline-primary tour-details-btn" data-tour="mangrove-kayaking">
+                <span class="lang-en">Learn More</span>
+                <span class="lang-es" style="display: none;">Más Información</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card tour-card">
+            <img src="https://cdn.pixabay.com/photo/2015/09/18/11/38/boat-945092_1280.jpg" class="card-img-top tour-img" alt="Hidden Beaches">
+            <div class="card-body">
+              <h5 class="card-title">
+                <span class="lang-en">Hidden Beaches</span>
+                <span class="lang-es" style="display: none;">Playas Escondidas</span>
+              </h5>
+              <p class="card-text lang-en">Discover secluded beaches with crystal-clear waters, perfect for swimming and relaxation.</p>
+              <p class="card-text lang-es" style="display: none;">Descubre playas apartadas con aguas cristalinas, perfectas para nadar y relajarse.</p>
+              <button class="btn btn-sm btn-outline-primary tour-details-btn" data-tour="hidden-beaches">
+                <span class="lang-en">Learn More</span>
+                <span class="lang-es" style="display: none;">Más Información</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card tour-card">
+            <img src="https://cdn.pixabay.com/photo/2015/07/14/17/42/jungle-845033_1280.jpg" class="card-img-top tour-img" alt="Jungle Hikes">
+            <div class="card-body">
+              <h5 class="card-title">
+                <span class="lang-en">Jungle Hikes</span>
+                <span class="lang-es" style="display: none;">Caminatas por la Selva</span>
+              </h5>
+              <p class="card-text lang-en">Trek through lush rainforest trails and spot exotic wildlife in their natural environment.</p>
+              <p class="card-text lang-es" style="display: none;">Camina por exuberantes senderos de selva tropical y observa fauna exótica en su entorno natural.</p>
+              <button class="btn btn-sm btn-outline-primary tour-details-btn" data-tour="jungle-hikes">
+                <span class="lang-en">Learn More</span>
+                <span class="lang-es" style="display: none;">Más Información</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="card tour-card">
+            <img src="https://cdn.pixabay.com/photo/2020/03/01/15/30/waterfalls-4893253_1280.jpg" class="card-img-top tour-img" alt="La Sierpe Waterfall">
+            <div class="card-body">
+              <h5 class="card-title">
+                <span class="lang-en">La Sierpe Waterfall</span>
+                <span class="lang-es" style="display: none;">Cascada La Sierpe</span>
+              </h5>
+              <p class="card-text lang-en">Visit the majestic La Sierpe waterfall, a hidden gem nestled in the heart of the jungle.</p>
+              <p class="card-text lang-es" style="display: none;">Visita la majestuosa cascada La Sierpe, una joya escondida en el corazón de la selva.</p>
+              <button class="btn btn-sm btn-outline-primary tour-details-btn" data-tour="la-sierpe">
+                <span class="lang-en">Learn More</span>
+                <span class="lang-es" style="display: none;">Más Información</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="500">
+          <div class="card tour-card">
+            <img src="https://cdn.pixabay.com/photo/2017/08/31/15/31/market-2701237_1280.jpg" class="card-img-top tour-img" alt="Cultural Visits">
+            <div class="card-body">
+              <h5 class="card-title">
+                <span class="lang-en">Cultural Community Visits</span>
+                <span class="lang-es" style="display: none;">Visitas Culturales Comunitarias</span>
+              </h5>
+              <p class="card-text lang-en">Immerse yourself in local Afro-Colombian traditions, music, dance, and culinary experiences.</p>
+              <p class="card-text lang-es" style="display: none;">Sumérgete en las tradiciones afrocolombianas locales, música, danza y experiencias culinarias.</p>
+              <button class="btn btn-sm btn-outline-primary tour-details-btn" data-tour="cultural-visits">
+                <span class="lang-en">Learn More</span>
+                <span class="lang-es" style="display: none;">Más Información</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Transportation Section -->
+  <section id="transportation" class="transportation-section">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">
+        <span class="lang-en">How to Get There</span>
+        <span class="lang-es" style="display: none;">Cómo Llegar</span>
+      </h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="transport-timeline" data-aos="fade-up">
+            <div class="transport-step">
+              <div class="d-flex align-items-center">
+                <i class="fas fa-plane transport-icon"></i>
+                <h4>
+                  <span class="lang-en">Step 1: Arrive in Cali</span>
+                  <span class="lang-es" style="display: none;">Paso 1: Llegar a Cali</span>
+                </h4>
+              </div>
+              <p class="lang-en">Fly into Alfonso Bonilla Aragón International Airport in Cali, the closest major city to Bahía Málaga.</p>
+              <p class="lang-es" style="display: none;">Vuela al Aeropuerto Internacional Alfonso Bonilla Aragón en Cali, la ciudad importante más cercana a Bahía Málaga.</p>
+            </div>
+            <div class="transport-step">
+              <div class="d-flex align-items-center">
+                <i class="fas fa-bus transport-icon"></i>
+                <h4>
+                  <span class="lang-en">Step 2: Cali to Buenaventura</span>
+                  <span class="lang-es" style="display: none;">Paso 2: Cali a Buenaventura</span>
+                </h4>
+              </div>
+              <p class="lang-en">Take a bus from Cali to Buenaventura (3-4 hours, approximately $8-12 USD). Buses depart from Terminal de Transportes de Cali every hour from 4:00 AM to 6:00 PM.</p>
+              <p class="lang-es" style="display: none;">Toma un bus desde Cali hasta Buenaventura (3-4 horas, aproximadamente $8-12 USD). Los buses salen de la Terminal de Transportes de Cali cada hora desde las 4:00 AM hasta las 6:00 PM.</p>
+            </div>
+            <div class="transport-step">
+              <div class="d-flex align-items-center">
+                <i class="fas fa-ship transport-icon"></i>
+                <h4>
+                  <span class="lang-en">Step 3: Boat to Juanchaco/Ladrilleros</span>
+                  <span class="lang-es" style="display: none;">Paso 3: Barco a Juanchaco/Ladrilleros</span>
+                </h4>
+              </div>
+              <p class="lang-en">From Buenaventura's tourist pier, take a speedboat to Juanchaco or Ladrilleros (1-1.5 hours, approximately $15-20 USD). Boats depart daily at 8:00 AM, 11:30 AM, and 3:00 PM. Return boats depart at 6:00 AM, 12:00 PM, and 3:00 PM.</p>
+              <p class="lang-es" style="display: none;">Desde el muelle turístico de Buenaventura, toma una lancha rápida a Juanchaco o Ladrilleros (1-1.5 horas, aproximadamente $15-20 USD). Las lanchas salen diariamente a las 8:00 AM, 11:30 AM y 3:00 PM. Las lanchas de regreso salen a las 6:00 AM, 12:00 PM y 3:00 PM.</p>
+            </div>
+            <div class="transport-step">
+              <div class="d-flex align-items-center">
+                <i class="fas fa-dharmachakra transport-icon"></i>
+                <h4>
+                  <span class="lang-en">Step 4: To the National Park</span>
+                  <span class="lang-es" style="display: none;">Paso 4: Al Parque Nacional</span>
+                </h4>
+              </div>
+              <p class="lang-en">From Juanchaco or Ladrilleros, hire a local boat to take you to different areas of the park (prices vary by destination, approximately $10-30 USD). Tours can be arranged through local operators or your accommodation.</p>
+              <p class="lang-es" style="display: none;">Desde Juanchaco o Ladrilleros, contrata una lancha local para llevarte a diferentes áreas del parque (los precios varían según el destino, aproximadamente $10-30 USD). Los tours se pueden organizar a través de operadores locales o tu alojamiento.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Food Section -->
+  <section id="food" class="food-section">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">
+        <span class="lang-en">Local Cuisine</span>
+        <span class="lang-es" style="display: none;">Gastronomía Local</span>
+      </h2>
+      <div class="food-carousel swiper" data-aos="fade-up">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://cdn.pixabay.com/photo/2014/01/24/04/05/fried-shrimp-250871_1280.jpg" class="food-img" alt="Encocado de Piangua">
+            <div class="food-caption">
+              <h5>
+                <span class="lang-en">Encocado de Piangua</span>
+                <span class="lang-es" style="display: none;">Encocado de Piangua</span>
+              </h5>
+              <p class="lang-en">A delicious stew made with piangua (a local shellfish) cooked in coconut milk with herbs and spices.</p>
+              <p class="lang-es" style="display: none;">Un delicioso guiso hecho con piangua (un marisco local) cocinado en leche de coco con hierbas y especias.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://cdn.pixabay.com/photo/2018/08/31/19/13/pumpkin-soup-3645375_1280.jpg" class="food-img" alt="Arroz con Camarones">
+            <div class="food-caption">
+              <h5>
+                <span class="lang-en">Arroz con Camarones</span>
+                <span class="lang-es" style="display: none;">Arroz con Camarones</span>
+              </h5>
+              <p class="lang-en">Rice dish cooked with fresh shrimp, coconut milk, and local spices.</p>
+              <p class="lang-es" style="display: none;">Plato de arroz cocinado con camarones frescos, leche de coco y especias locales.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://cdn.pixabay.com/photo/2014/10/30/18/14/seafood-509853_1280.jpg" class="food-img" alt="Sancocho de Pescado">
+            <div class="food-caption">
+              <h5>
+                <span class="lang-en">Sancocho de Pescado</span>
+                <span class="lang-es" style="display: none;">Sancocho de Pescado</span>
+              </h5>
+              <p class="lang-en">Traditional fish stew with plantains, yuca, and corn, seasoned with cilantro and local herbs.</p>
+              <p class="lang-es" style="display: none;">Tradicional sopa de pescado con plátanos, yuca y maíz, sazonada con cilantro y hierbas locales.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://cdn.pixabay.com/photo/2015/07/12/19/06/empanadas-842351_1280.jpg" class="food-img" alt="Empanadas de Jaiba">
+            <div class="food-caption">
+              <h5>
+                <span class="lang-en">Jaiba Empanadas</span>
+                <span class="lang-es" style="display: none;">Empanadas de Jaiba</span>
+              </h5>
+              <p class="lang-en">Delicious pastries filled with crab meat, onions, peppers, and spices.</p>
+              <p class="lang-es" style="display: none;">Deliciosas empanadas rellenas de carne de cangrejo, cebollas, pimientos y especias.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://cdn.pixabay.com/photo/2015/09/15/15/53/cocktail-941487_1280.jpg" class="food-img" alt="Arrechón">
+            <div class="food-caption">
+              <h5>
+                <span class="lang-en">Arrechón</span>
+                <span class="lang-es" style="display: none;">Arrechón</span>
+              </h5>
+              <p class="lang-en">Traditional Pacific coast drink made with aguardiente, honey, and various herbs.</p>
+              <p class="lang-es" style="display: none;">Bebida tradicional de la costa pacífica hecha con aguardiente, miel y varias hierbas.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://cdn.pixabay.com/photo/2017/01/20/14/58/orange-1995044_1280.jpg" class="food-img" alt="Jugo de Frutas Exóticas">
+            <div class="food-caption">
+              <h5>
+                <span class="lang-en">Exotic Fruit Juices</span>
+                <span class="lang-es" style="display: none;">Jugos de Frutas Exóticas</span>
+              </h5>
+              <p class="lang-en">Fresh juices made from local fruits like borojó, chontaduro, and lulo.</p>
+              <p class="lang-es" style="display: none;">Jugos frescos hechos con frutas locales como borojó, chontaduro y lulo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+          <h4>
+            <span class="lang-en">Recommended Places to Eat</span>
+            <span class="lang-es" style="display: none;">Lugares Recomendados para Comer</span>
+          </h4>
+          <ul class="list-unstyled">
+            <li class="lang-en">• <strong>Restaurante Doña María</strong> - Traditional local dishes in Juanchaco</li>
+            <li class="lang-es" style="display: none;">• <strong>Restaurante Doña María</strong> - Platos tradicionales locales en Juanchaco</li>
+            <li class="lang-en">• <strong>El Muelle Seafood</strong> - Fresh seafood with ocean views in Ladrilleros</li>
+            <li class="lang-es" style="display: none;">• <strong>El Muelle Seafood</strong> - Mariscos frescos con vistas al océano en Ladrilleros</li>
+            <li class="lang-en">• <strong>Sabores del Pacífico</strong> - Authentic Pacific cuisine in La Barra</li>
+            <li class="lang-es" style="display: none;">• <strong>Sabores del Pacífico</strong> - Auténtica cocina del Pacífico en La Barra</li>
+            <li class="lang-en">• <strong>Cevichería El Navegante</strong> - Specializes in ceviche and fresh fish in Juanchaco</li>
+            <li class="lang-es" style="display: none;">• <strong>Cevichería El Navegante</strong> - Especializado en ceviche y pescado fresco en Juanchaco</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accommodation Section -->
+  <section id="accommodation" class="accommodation-section">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">
+        <span class="lang-en">Where to Stay</span>
+        <span class="lang-es" style="display: none;">Dónde Hospedarse</span>
+      </h2>
+      <div class="row">
+        <div class="col-md-4 mb-4" data-aos="fade-up">
+          <div class="card stay-card">
+            <img src="https://cdn.pixabay.com/photo/2017/12/16/22/26/bungalow-3023437_1280.jpg" class="card-img-top stay-img" alt="Eco-hostel">
+            <div class="card-body">
+              <h5 class="card-title">
+                <span class="lang-en">Hostal El Mangle - Juanchaco</span>
+                <span class="lang-es" style="display: none;">Hostal El Mangle - Juanchaco</span>
+              </h5>
+              <p class="card-text lang-en">Budget-friendly eco-hostel with shared and private rooms, communal kitchen, and hammock area.</p>
+              <p class="card-text lang-es" style="display: none;">Eco-hostal económico con habitaciones compartidas y privadas, cocina común y área de hamacas.</p>
+              <div class="comfort-icons">
+                <i class="fas fa-wifi comfort-icon" title="WiFi"></i>
+                <i class="fas fa-shower comfort-icon" title="Hot Showers"></i>
+                <i class="fas fa-utensils comfort-icon" title="Restaurant"></i>
+              </div>
+              <div class="eco-rating">
+                <i class="fas fa-leaf eco-icon"></i>
+                <i class="fas fa-leaf eco-icon"></i>
+                <i class="fas fa-leaf eco-icon"></i>
+                <i class="far fa-leaf eco-icon"></i>
+                <i class="far fa-leaf eco-icon"></i>
+              </div>
+              <a href="javascript:void(0)" class="btn btn-sm btn-outline-primary mt-3">
+                <span class="lang-en">Contact & Reservations</span>
+                <span class="lang-es" style="display: none;">Contacto y Reservas</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card stay-card">
+            <img src="https://cdn.pixabay.com/photo/2016/11/22/23/45/beach-1851101_1280.jpg" class="card-img-top stay-img" alt="Ecolodge">
+            <div class="card-body">
+              <h5 class="card-title">
+                <span class="lang-en">Ecolodge Pacífico - Ladrilleros</span>
+                <span class="lang-es" style="display: none;">Ecolodge Pacífico - Ladrilleros</span>
+              </h5>
+              <p class="card-text lang-en">Sustainable lodge with private cabins, ocean views, local cuisine restaurant, and guided tours.</p>
+              <p class="card-text lang-es" style="display: none;">Lodge sostenible con cabañas privadas, vistas al océano, restaurante de cocina local y tours guiados.</p>
+              <div class="comfort-icons">
+                <i class="fas fa-wifi comfort-icon" title="WiFi"></i>
+                <i class="fas fa-shower comfort-icon" title="Hot Showers"></i>
+                <i class="fas fa-utensils comfort-icon" title="Restaurant"></i>
+                <i class="fas fa-swimming-pool comfort-icon" title="Pool"></i>
+              </div>
+              <div class="eco-rating">
+                <i class="fas fa-leaf eco-icon"></i>
+                <i class="fas fa-leaf eco-icon"></i>
+                <i class="fas fa-leaf eco-icon"></i>
+                <i class="fas fa-leaf eco-icon"></i>
+                <i class="far fa-leaf eco-icon"></i>
+              </div>
+              <a href="javascript:void(0)" class="btn btn-sm btn-outline-primary mt-3">
+                <span class="lang-en">Contact & Reservations</span>
+                <span class="lang-es" style="display: none;">Contacto y Reservas</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card stay-card">
+            <img src="https://cdn.pixabay.com/photo/2016/08/26/15/01/home-1622401_1280.jpg" class="card-img-top stay-img" alt="Community Stay">
+            <div class="card-body">
+              <h5 class="card-title">
+                <span class="lang-en">Casa Ancestral - La Barra</span>
+                <span class="lang-es" style="display: none;">Casa Ancestral - La Barra</span>
+              </h5>
+              <p class="card-text lang-en">Cultural immersion with local families, traditional meals, and community-led activities.</p>
+              <p class="card-text lang-es" style="display: none;">Inmersión cultural con familias locales, comidas tradicionales y actividades dirigidas por la comunidad.</p>
+              <div class="comfort-icons">
+                <i class="fas fa-utensils comfort-icon" title="Meals Included"></i>
+                <i class="fas fa-hands-helping comfort-icon" title="Community Support"></i>
+              </div>
+              <div class="eco-rating">
+                <i class="fas fa-leaf eco-icon"></i>
+                <i class="fas fa-leaf eco-icon"></i>
+                <i class="fas fa-leaf eco-icon"></i>
+                <i class="fas fa-leaf eco-icon"></i>
+                <i class="fas fa-leaf eco-icon"></i>
+              </div>
+              <a href="javascript:void(0)" class="btn btn-sm btn-outline-primary mt-3">
+                <span class="lang-en">Contact & Reservations</span>
+                <span class="lang-es" style="display: none;">Contacto y Reservas</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section id="map" class="map-section">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">
+        <span class="lang-en">Park Map</span>
+        <span class="lang-es" style="display: none;">Mapa del Parque</span>
+      </h2>
+      <div class="interactive-map" data-aos="fade-up">
+        <img src="https://cdn.pixabay.com/photo/2017/09/12/03/07/colombia-2741233_1280.jpg" alt="Map of Bahía Málaga" class="img-fluid">
+        
+        <!-- Map points -->
+        <div class="map-point" style="top: 30%; left: 40%;">
+          <div class="map-popup">
+            <h5>Juanchaco</h5>
+            <p class="lang-en">Main tourist village with various accommodations and restaurants.</p>
+            <p class="lang-es" style="display: none;">Principal pueblo turístico con varios alojamientos y restaurantes.</p>
+          </div>
+        </div>
+        
+        <div class="map-point" style="top: 35%; left: 45%;">
+          <div class="map-popup">
+            <h5>Ladrilleros</h5>
+            <p class="lang-en">Village known for whale watching tours and beaches.</p>
+            <p class="lang-es" style="display: none;">Pueblo conocido por tours de avistamiento de ballenas y playas.</p>
+          </div>
+        </div>
+        
+        <div class="map-point" style="top: 40%; left: 35%;">
+          <div class="map-popup">
+            <h5>La Sierpe Waterfall</h5>
+            <p class="lang-en">Beautiful waterfall accessible by a jungle hike.</p>
+            <p class="lang-es" style="display: none;">Hermosa cascada accesible mediante caminata por la selva.</p>
+          </div>
+        </div>
+        
+        <div class="map-point" style="top: 25%; left: 55%;">
+          <div class="map-popup">
+            <h5>Whale Watching Area</h5>
+            <p class="lang-en">Prime location for observing humpback whales (July-October).</p>
+            <p class="lang-es" style="display: none;">Ubicación principal para observar ballenas jorobadas (julio-octubre).</p>
+          </div>
+        </div>
+        
+        <div class="map-point" style="top: 45%; left: 60%;">
+          <div class="map-popup">
+            <h5>Mangrove Forests</h5>
+            <p class="lang-en">Extensive mangrove ecosystem perfect for kayaking tours.</p>
+            <p class="lang-es" style="display: none;">Extenso ecosistema de manglares perfecto para tours en kayak.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">
+        <span class="lang-en">Contact & Social</span>
+        <span class="lang-es" style="display: none;">Contacto y Redes Sociales</span>
+      </h2>
+      <div class="row">
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="contact-form">
+            <h4 class="mb-4">
+              <span class="lang-en">Get in Touch</span>
+              <span class="lang-es" style="display: none;">Contáctanos</span>
+            </h4>
+            <form id="contactForm">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="name" placeholder="Name / Nombre" required>
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="email" placeholder="Email / Correo electrónico" required>
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="message" rows="5" placeholder="Message / Mensaje" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                <span class="lang-en">Send Message</span>
+                <span class="lang-es" style="display: none;">Enviar Mensaje</span>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <h4 class="mb-4">
+            <span class="lang-en">Follow Us</span>
+            <span class="lang-es" style="display: none;">Síguenos</span>
+          </h4>
+          <div class="social-icons">
+            <a href="javascript:void(0)" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="javascript:void(0)" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="javascript:void(0)" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="javascript:void(0)" class="social-icon"><i class="fab fa-youtube"></i></a>
+          </div>
+          
+          <h4 class="mt-5 mb-4">
+            <span class="lang-en">Visitor Photos</span>
+            <span class="lang-es" style="display: none;">Fotos de Visitantes</span>
+          </h4>
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img src="https://cdn.pixabay.com/photo/2018/02/21/05/17/whale-3169337_1280.jpg" class="gallery-img" alt="Visitor Photo">
+            </div>
+            <div class="gallery-item">
+              <img src="https://cdn.pixabay.com/photo/2016/01/19/17/57/sea-1149978_1280.jpg" class="gallery-img" alt="Visitor Photo">
+            </div>
+            <div class="gallery-item">
+              <img src="https://cdn.pixabay.com/photo/2020/03/26/16/17/nature-4971369_1280.jpg" class="gallery-img" alt="Visitor Photo">
+            </div>
+            <div class="gallery-item">
+              <img src="https://cdn.pixabay.com/photo/2020/03/27/15/33/norway-4973935_1280.jpg" class="gallery-img" alt="Visitor Photo">
+            </div>
+            <div class="gallery-item">
+              <img src="https://cdn.pixabay.com/photo/2020/05/03/13/09/sunset-5125746_1280.jpg" class="gallery-img" alt="Visitor Photo">
+            </div>
+            <div class="gallery-item">
+              <img src="https://cdn.pixabay.com/photo/2017/10/30/15/39/humpback-whale-2902821_1280.jpg" class="gallery-img" alt="Visitor Photo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="footer-logo">Uramba Bahía Málaga</div>
+          <p class="lang-en">Experience the magic of Colombia's Pacific coast. Discover the natural beauty and cultural richness of Bahía Málaga.</p>
+          <p class="lang-es" style="display: none;">Experimenta la magia de la costa pacífica colombiana. Descubre la belleza natural y riqueza cultural de Bahía Málaga.</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="lang-en">Quick Links</h5>
+          <h5 class="lang-es" style="display: none;">Enlaces Rápidos</h5>
+          <ul class="footer-links">
+            <li><a href="#info" class="lang-en">About the Park</a></li>
+            <li><a href="#info" class="lang-es" style="display: none;">Sobre el Parque</a></li>
+            <li><a href="#tours" class="lang-en">Tours & Activities</a></li>
+            <li><a href="#tours" class="lang-es" style="display: none;">Tours y Actividades</a></li>
+            <li><a href="#transportation" class="lang-en">How to Get There</a></li>
+            <li><a href="#transportation" class="lang-es" style="display: none;">Cómo Llegar</a></li>
+            <li><a href="#accommodation" class="lang-en">Accommodation</a></li>
+            <li><a href="#accommodation" class="lang-es" style="display: none;">Alojamiento</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="lang-en">Contact Information</h5>
+          <h5 class="lang-es" style="display: none;">Información de Contacto</h5>
+          <ul class="footer-links">
+            <li><i class="fas fa-envelope me-2"></i> info@urambabahiamalaga.co</li>
+            <li><i class="fas fa-phone me-2"></i> +57 (2) 123-4567</li>
+            <li><i class="fas fa-map-marker-alt me-2"></i>
+              <span class="lang-en">Buenaventura, Valle del Cauca, Colombia</span>
+              <span class="lang-es" style="display: none;">Buenaventura, Valle del Cauca, Colombia</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Parque Nacional Natural Uramba Bahía Málaga. 
+          <span class="lang-en">All rights reserved.</span>
+          <span class="lang-es" style="display: none;">Todos los derechos reservados.</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Tour Details Overlay -->
+  <div class="detail-overlay" id="tourDetails">
+    <div class="detail-content">
+      <span class="detail-close">&times;</span>
+      <img id="detailImg" src="" alt="Tour Detail" class="detail-img">
+      <h3 id="detailTitle"></h3>
+      <div id="detailDescription"></div>
+      <div class="mt-4">
+        <h5 class="lang-en">Practical Information</h5>
+        <h5 class="lang-es" style="display: none;">Información Práctica</h5>
+        <ul id="detailInfo"></ul>
+      </div>
+      <div class="text-center mt-4">
+        <button class="btn btn-primary" id="bookTourBtn">
+          <span class="lang-en">Book This Tour</span>
+          <span class="lang-es" style="display: none;">Reservar Este Tour</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="uramba_bahia_malaga.js"></script>
+</body>
+</html>

@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover the Colors of Colombia | Cabo de la Vela</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  <link rel="stylesheet" href="cabo_vela.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="javascript:void(0)">Discover Colombia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#info-general" data-lang-es="Información" data-lang-en="Information">Información</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tips" data-lang-es="Tips" data-lang-en="Tips">Tips</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tours" data-lang-es="Tours" data-lang-en="Tours">Tours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#transporte" data-lang-es="Transporte" data-lang-en="Transport">Transporte</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#comida" data-lang-es="Comida" data-lang-en="Food">Comida</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hospedaje" data-lang-es="Hospedaje" data-lang-en="Accommodation">Hospedaje</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto" data-lang-es="Contacto" data-lang-en="Contact">Contacto</a>
+          </li>
+          <li class="nav-item ms-3 d-flex align-items-center">
+            <label class="language-toggle">
+              <input type="checkbox" id="languageSwitch">
+              <span class="language-slider">
+                <span class="lang-text lang-es">ES</span>
+                <span class="lang-text lang-en">EN</span>
+              </span>
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="d-flex align-items-center">
+    <img src="https://cdn.pixabay.com/photo/2017/01/20/16/02/sunset-1995086_1280.jpg" alt="Cabo de la Vela sunset" class="hero-img">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 data-lang-es="Discover the Colors of Colombia" data-lang-en="Discover the Colors of Colombia">Discover the Colors of Colombia</h1>
+      <p data-lang-es="Vive el encanto del desierto Wayuu" data-lang-en="Experience the enchantment of the Wayuu desert">Vive el encanto del desierto Wayuu</p>
+      <div>
+        <a href="#info-general" class="btn hero-btn btn-explore" data-lang-es="Explora La Guajira" data-lang-en="Explore La Guajira">Explora La Guajira</a>
+        <a href="#contacto" class="btn hero-btn btn-reserve" data-lang-es="Reserva tu experiencia" data-lang-en="Book your experience">Reserva tu experiencia</a>
+        <a href="#tours" class="btn hero-btn btn-know" data-lang-es="Conoce el Cabo" data-lang-en="Discover the Cape">Conoce el Cabo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wayuu pattern divider -->
+  <div class="wayuu-pattern"></div>
+
+  <!-- General Information Section -->
+  <section id="info-general" class="section">
+    <div class="container">
+      <h2 class="section-title text-center" data-lang-es="Información General" data-lang-en="General Information">Información General</h2>
+      <div class="row">
+        <div class="col-lg-4 mb-4" data-aos="fade-up">
+          <img src="https://cdn.pixabay.com/photo/2018/12/17/03/03/desert-3879578_1280.jpg" alt="Mapa de La Guajira" class="map-thumbnail">
+          <h4 class="mt-3" data-lang-es="Ubicación" data-lang-en="Location">Ubicación</h4>
+          <p data-lang-es="Cabo de la Vela se encuentra en el extremo norte de Colombia, en el departamento de La Guajira. Es un paraíso escondido entre el desierto y el mar Caribe." data-lang-en="Cabo de la Vela is located in the northern tip of Colombia, in the La Guajira department. It's a hidden paradise between the desert and the Caribbean Sea.">Cabo de la Vela se encuentra en el extremo norte de Colombia, en el departamento de La Guajira. Es un paraíso escondido entre el desierto y el mar Caribe.</p>
+        </div>
+        <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-6">
+              <img src="https://cdn.pixabay.com/photo/2017/12/16/16/37/beach-3022935_1280.jpg" alt="Playa de Cabo de la Vela" class="info-image">
+            </div>
+            <div class="col-6">
+              <img src="https://cdn.pixabay.com/photo/2018/08/25/08/40/desert-3629808_1280.jpg" alt="Desierto de La Guajira" class="info-image">
+            </div>
+          </div>
+          <h4 class="mt-3" data-lang-es="Cultura Wayuu" data-lang-en="Wayuu Culture">Cultura Wayuu</h4>
+          <p data-lang-es="La región está habitada por la comunidad indígena Wayuu, conocida por sus coloridas artesanías, su rica mitología y sus tradiciones ancestrales que se mantienen vivas hasta hoy." data-lang-en="The region is inhabited by the Wayuu indigenous community, known for their colorful crafts, rich mythology, and ancestral traditions that remain alive today.">La región está habitada por la comunidad indígena Wayuu, conocida por sus coloridas artesanías, su rica mitología y sus tradiciones ancestrales que se mantienen vivas hasta hoy.</p>
+        </div>
+        <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="climate-chart">
+            <h4 class="text-center mb-3" data-lang-es="Clima y Temporadas" data-lang-en="Climate and Seasons">Clima y Temporadas</h4>
+            <div class="table-responsive">
+              <table class="table table-sm">
+                <thead>
+                  <tr>
+                    <th data-lang-es="Temporada" data-lang-en="Season">Temporada</th>
+                    <th data-lang-es="Meses" data-lang-en="Months">Meses</th>
+                    <th data-lang-es="Temperatura" data-lang-en="Temperature">Temperatura</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-lang-es="Alta" data-lang-en="High">Alta</td>
+                    <td>Dic - Feb</td>
+                    <td>24°C - 32°C</td>
+                  </tr>
+                  <tr>
+                    <td data-lang-es="Media" data-lang-en="Medium">Media</td>
+                    <td>Mar - Jul</td>
+                    <td>26°C - 34°C</td>
+                  </tr>
+                  <tr>
+                    <td data-lang-es="Baja" data-lang-en="Low">Baja</td>
+                    <td>Ago - Nov</td>
+                    <td>28°C - 36°C</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="small text-muted mt-2" data-lang-es="La mejor época para visitar es entre diciembre y marzo cuando los vientos alivian el calor." data-lang-en="The best time to visit is between December and March when the winds ease the heat.">La mejor época para visitar es entre diciembre y marzo cuando los vientos alivian el calor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wayuu pattern divider -->
+  <div class="wayuu-pattern"></div>
+
+  <!-- Tips Section -->
+  <section id="tips" class="section">
+    <div class="container">
+      <h2 class="section-title text-center" data-lang-es="Tips del Lugar" data-lang-en="Local Tips">Tips del Lugar</h2>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 mb-4" data-aos="fade-up">
+          <div class="tip-card text-center">
+            <i class="fas fa-suitcase tip-icon"></i>
+            <h4 data-lang-es="Qué Empacar" data-lang-en="What to Pack">Qué Empacar</h4>
+            <ul class="list-unstyled">
+              <li data-lang-es="Protector solar alto SPF" data-lang-en="High SPF sunscreen">Protector solar alto SPF</li>
+              <li data-lang-es="Sombrero o gorra" data-lang-en="Hat or cap">Sombrero o gorra</li>
+              <li data-lang-es="Ropa liviana" data-lang-en="Light clothing">Ropa liviana</li>
+              <li data-lang-es="Traje de baño" data-lang-en="Swimwear">Traje de baño</li>
+              <li data-lang-es="Efectivo (no hay cajeros)" data-lang-en="Cash (no ATMs)">Efectivo (no hay cajeros)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="tip-card text-center">
+            <i class="fas fa-exclamation-triangle tip-icon"></i>
+            <h4 data-lang-es="Precauciones" data-lang-en="Precautions">Precauciones</h4>
+            <ul class="list-unstyled">
+              <li data-lang-es="Hidratarse constantemente" data-lang-en="Stay constantly hydrated">Hidratarse constantemente</li>
+              <li data-lang-es="Llevar medicamentos básicos" data-lang-en="Bring basic medications">Llevar medicamentos básicos</li>
+              <li data-lang-es="Protegerse del sol" data-lang-en="Protect yourself from the sun">Protegerse del sol</li>
+              <li data-lang-es="Consultar mareas para nadar" data-lang-en="Check tides before swimming">Consultar mareas para nadar</li>
+              <li data-lang-es="Descargar mapas offline" data-lang-en="Download offline maps">Descargar mapas offline</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="tip-card text-center">
+            <i class="fas fa-hands tip-icon"></i>
+            <h4 data-lang-es="Respeto Cultural" data-lang-en="Cultural Respect">Respeto Cultural</h4>
+            <ul class="list-unstyled">
+              <li data-lang-es="Pedir permiso para fotografiar" data-lang-en="Ask for permission to photograph">Pedir permiso para fotografiar</li>
+              <li data-lang-es="Respetar sitios sagrados" data-lang-en="Respect sacred sites">Respetar sitios sagrados</li>
+              <li data-lang-es="Aprender palabras en Wayuunaiki" data-lang-en="Learn words in Wayuunaiki">Aprender palabras en Wayuunaiki</li>
+              <li data-lang-es="Vestir modestamente" data-lang-en="Dress modestly">Vestir modestamente</li>
+              <li data-lang-es="Valorar artesanías locales" data-lang-en="Value local crafts">Valorar artesanías locales</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="tip-card text-center">
+            <i class="fas fa-leaf tip-icon"></i>
+            <h4 data-lang-es="Sostenibilidad" data-lang-en="Sustainability">Sostenibilidad</h4>
+            <ul class="list-unstyled">
+              <li data-lang-es="Conservar agua (es escasa)" data-lang-en="Conserve water (it's scarce)">Conservar agua (es escasa)</li>
+              <li data-lang-es="No dejar basura" data-lang-en="Leave no trash">No dejar basura</li>
+              <li data-lang-es="Usar protector solar biodegradable" data-lang-en="Use biodegradable sunscreen">Usar protector solar biodegradable</li>
+              <li data-lang-es="Respetar fauna y flora" data-lang-en="Respect fauna and flora">Respetar fauna y flora</li>
+              <li data-lang-es="Apoyar negocios locales" data-lang-en="Support local businesses">Apoyar negocios locales</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wayuu pattern divider -->
+  <div class="wayuu-pattern"></div>
+
+  <!-- Tours Section -->
+  <section id="tours" class="section">
+    <div class="container">
+      <h2 class="section-title text-center" data-lang-es="Tours y Actividades" data-lang-en="Tours and Activities">Tours y Actividades</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <div class="tour-card">
+            <img src="https://cdn.pixabay.com/photo/2016/03/09/09/43/kitesurfing-1245967_1280.jpg" alt="Kitesurf en Cabo de la Vela" class="tour-img">
+            <div class="tour-content">
+              <h4 class="tour-title" data-lang-es="Kitesurf en el Paraíso" data-lang-en="Kitesurfing in Paradise">Kitesurf en el Paraíso</h4>
+              <p class="tour-description" data-lang-es="Aprende o perfecciona tus habilidades de kitesurf en uno de los mejores spots del Caribe. Incluye equipo y instructor certificado." data-lang-en="Learn or perfect your kitesurfing skills in one of the best spots in the Caribbean. Includes equipment and certified instructor.">Aprende o perfecciona tus habilidades de kitesurf en uno de los mejores spots del Caribe. Incluye equipo y instructor certificado.</p>
+              <a href="javascript:void(0)" class="btn btn-more" data-lang-es="Más info" data-lang-en="More info">Más info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="tour-card">
+            <img src="https://cdn.pixabay.com/photo/2019/09/27/14/58/desert-4508641_1280.jpg" alt="Atardecer en Pilón de Azúcar" class="tour-img">
+            <div class="tour-content">
+              <h4 class="tour-title" data-lang-es="Atardecer en Pilón de Azúcar" data-lang-en="Sunset at Pilón de Azúcar">Atardecer en Pilón de Azúcar</h4>
+              <p class="tour-description" data-lang-es="Caminata guiada hasta el mirador para disfrutar del espectacular atardecer. Incluye transporte, guía local y bebida refrescante." data-lang-en="Guided hike to the viewpoint to enjoy the spectacular sunset. Includes transportation, local guide, and refreshing drink.">Caminata guiada hasta el mirador para disfrutar del espectacular atardecer. Incluye transporte, guía local y bebida refrescante.</p>
+              <a href="javascript:void(0)" class="btn btn-more" data-lang-es="Más info" data-lang-en="More info">Más info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="tour-card">
+            <img src="https://cdn.pixabay.com/photo/2018/10/01/00/46/indigenous-3715394_1280.jpg" alt="Experiencia cultural Wayuu" class="tour-img">
+            <div class="tour-content">
+              <h4 class="tour-title" data-lang-es="Inmersión Cultural Wayuu" data-lang-en="Wayuu Cultural Immersion">Inmersión Cultural Wayuu</h4>
+              <p class="tour-description" data-lang-es="Visita a una ranchería tradicional para conocer la cultura, gastronomía y artesanías Wayuu. Incluye almuerzo típico y taller de tejido." data-lang-en="Visit to a traditional ranchería to learn about Wayuu culture, gastronomy, and crafts. Includes typical lunch and weaving workshop.">Visita a una ranchería tradicional para conocer la cultura, gastronomía y artesanías Wayuu. Incluye almuerzo típico y taller de tejido.</p>
+              <a href="javascript:void(0)" class="btn btn-more" data-lang-es="Más info" data-lang-en="More info">Más info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="tour-card">
+            <img src="https://cdn.pixabay.com/photo/2015/03/09/18/34/beach-666122_1280.jpg" alt="Snorkel en Playa del Ojo de Agua" class="tour-img">
+            <div class="tour-content">
+              <h4 class="tour-title" data-lang-es="Snorkel en Aguas Cristalinas" data-lang-en="Snorkeling in Crystal Waters">Snorkel en Aguas Cristalinas</h4>
+              <p class="tour-description" data-lang-es="Descubre la vida marina en las playas cercanas. Tour incluye equipo, guía y refrigerio. Ideal para principiantes y familias." data-lang-en="Discover marine life in nearby beaches. Tour includes equipment, guide, and snack. Ideal for beginners and families.">Descubre la vida marina en las playas cercanas. Tour incluye equipo, guía y refrigerio. Ideal para principiantes y familias.</p>
+              <a href="javascript:void(0)" class="btn btn-more" data-lang-es="Más info" data-lang-en="More info">Más info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="tour-card">
+            <img src="https://cdn.pixabay.com/photo/2019/03/24/21/57/landscape-4078925_1280.jpg" alt="Tour a Punta Gallinas" class="tour-img">
+            <div class="tour-content">
+              <h4 class="tour-title" data-lang-es="Expedición a Punta Gallinas" data-lang-en="Expedition to Punta Gallinas">Expedición a Punta Gallinas</h4>
+              <p class="tour-description" data-lang-es="Aventura de 2 días al punto más septentrional de Sudamérica. Incluye transporte 4x4, alimentación, hospedaje y visita a Dunas de Taroa." data-lang-en="2-day adventure to the northernmost point of South America. Includes 4x4 transportation, meals, accommodation, and visit to Taroa Dunes.">Aventura de 2 días al punto más septentrional de Sudamérica. Incluye transporte 4x4, alimentación, hospedaje y visita a Dunas de Taroa.</p>
+              <a href="javascript:void(0)" class="btn btn-more" data-lang-es="Más info" data-lang-en="More info">Más info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="tour-card">
+            <img src="https://cdn.pixabay.com/photo/2016/06/13/07/59/beach-1453731_1280.jpg" alt="Ruta de Playas Vírgenes" class="tour-img">
+            <div class="tour-content">
+              <h4 class="tour-title" data-lang-es="Ruta de Playas Vírgenes" data-lang-en="Virgin Beaches Route">Ruta de Playas Vírgenes</h4>
+              <p class="tour-description" data-lang-es="Recorrido por las mejores playas de la zona: Ojo de Agua, Playa Arcoiris y Playa Dorada. Transporte en 4x4 y almuerzo incluidos." data-lang-en="Tour of the best beaches in the area: Ojo de Agua, Rainbow Beach, and Golden Beach. 4x4 transportation and lunch included.">Recorrido por las mejores playas de la zona: Ojo de Agua, Playa Arcoiris y Playa Dorada. Transporte en 4x4 y almuerzo incluidos.</p>
+              <a href="javascript:void(0)" class="btn btn-more" data-lang-es="Más info" data-lang-en="More info">Más info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wayuu pattern divider -->
+  <div class="wayuu-pattern"></div>
+
+  <!-- Transport Section -->
+  <section id="transporte" class="section">
+    <div class="container">
+      <h2 class="section-title text-center" data-lang-es="Transporte" data-lang-en="Transportation">Transporte</h2>
+      <div class="row">
+        <div class="col-lg-8 mb-4" data-aos="fade-up">
+          <img src="https://cdn.pixabay.com/photo/2016/01/09/18/27/old-1130731_1280.jpg" alt="Mapa interactivo de La Guajira" class="transport-map">
+        </div>
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="route-info">
+            <h4 class="route-title" data-lang-es="Rutas Principales" data-lang-en="Main Routes">Rutas Principales</h4>
+            <div class="route-detail">
+              <i class="fas fa-plane route-icon"></i>
+              <div>
+                <p class="mb-0" data-lang-es="Desde Bogotá: Vuelo a Riohacha (2h)" data-lang-en="From Bogotá: Flight to Riohacha (2h)">Desde Bogotá: Vuelo a Riohacha (2h)</p>
+              </div>
+            </div>
+            <div class="route-detail">
+              <i class="fas fa-bus route-icon"></i>
+              <div>
+                <p class="mb-0" data-lang-es="Riohacha a Uribia: Bus (2h)" data-lang-en="Riohacha to Uribia: Bus (2h)">Riohacha a Uribia: Bus (2h)</p>
+              </div>
+            </div>
+            <div class="route-detail">
+              <i class="fas fa-car route-icon"></i>
+              <div>
+                <p class="mb-0" data-lang-es="Uribia a Cabo: 4x4 (3h)" data-lang-en="Uribia to Cabo: 4x4 (3h)">Uribia a Cabo: 4x4 (3h)</p>
+              </div>
+            </div>
+          </div>
+          <div class="route-info mt-4">
+            <h4 class="route-title" data-lang-es="Opciones Recomendadas" data-lang-en="Recommended Options">Opciones Recomendadas</h4>
+            <div class="route-detail">
+              <i class="fas fa-check-circle route-icon"></i>
+              <div>
+                <p class="mb-0" data-lang-es="Tour desde Santa Marta (2 días)" data-lang-en="Tour from Santa Marta (2 days)">Tour desde Santa Marta (2 días)</p>
+              </div>
+            </div>
+            <div class="route-detail">
+              <i class="fas fa-check-circle route-icon"></i>
+              <div>
+                <p class="mb-0" data-lang-es="Alquiler 4x4 en Riohacha" data-lang-en="4x4 rental in Riohacha">Alquiler 4x4 en Riohacha</p>
+              </div>
+            </div>
+            <div class="route-detail">
+              <i class="fas fa-check-circle route-icon"></i>
+              <div>
+                <p class="mb-0" data-lang-es="Tour privado con guía local" data-lang-en="Private tour with local guide">Tour privado con guía local</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wayuu pattern divider -->
+  <div class="wayuu-pattern"></div>
+
+  <!-- Food Section -->
+  <section id="comida" class="section">
+    <div class="container">
+      <h2 class="section-title text-center" data-lang-es="Comida Típica" data-lang-en="Traditional Food">Comida Típica</h2>
+      <div class="food-swiper swiper" data-aos="fade-up">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide food-slide">
+            <img src="https://cdn.pixabay.com/photo/2021/01/10/04/37/food-5904273_1280.jpg" alt="Pescado frito" class="food-img">
+            <div class="food-caption">
+              <h4 data-lang-es="Pescado Frito con Arroz de Coco" data-lang-en="Fried Fish with Coconut Rice">Pescado Frito con Arroz de Coco</h4>
+              <p data-lang-es="Plato tradicional de la costa caribeña colombiana, preparado con pescado fresco del día." data-lang-en="Traditional dish from the Colombian Caribbean coast, prepared with fresh fish of the day.">Plato tradicional de la costa caribeña colombiana, preparado con pescado fresco del día.</p>
+            </div>
+          </div>
+          <div class="swiper-slide food-slide">
+            <img src="https://cdn.pixabay.com/photo/2019/02/01/07/15/shrimp-3968279_1280.jpg" alt="Camarones al ajillo" class="food-img">
+            <div class="food-caption">
+              <h4 data-lang-es="Camarones al Ajillo" data-lang-en="Garlic Shrimp">Camarones al Ajillo</h4>
+              <p data-lang-es="Camarones frescos preparados con ajo, mantequilla y especias locales. Un manjar de la región." data-lang-en="Fresh shrimp prepared with garlic, butter, and local spices. A delicacy of the region.">Camarones frescos preparados con ajo, mantequilla y especias locales. Un manjar de la región.</p>
+            </div>
+          </div>
+          <div class="swiper-slide food-slide">
+            <img src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg" alt="Arepa de huevo" class="food-img">
+            <div class="food-caption">
+              <h4 data-lang-es="Arepa de Huevo" data-lang-en="Egg Arepa">Arepa de Huevo</h4>
+              <p data-lang-es="Deliciosa arepa frita rellena de huevo. Perfecta para desayunar o como merienda durante el día." data-lang-en="Delicious fried arepa stuffed with egg. Perfect for breakfast or as a snack during the day.">Deliciosa arepa frita rellena de huevo. Perfecta para desayunar o como merienda durante el día.</p>
+            </div>
+          </div>
+          <div class="swiper-slide food-slide">
+            <img src="https://cdn.pixabay.com/photo/2015/04/08/13/13/food-712665_1280.jpg" alt="Chivo en salsa" class="food-img">
+            <div class="food-caption">
+              <h4 data-lang-es="Chivo en Salsa" data-lang-en="Goat in Sauce">Chivo en Salsa</h4>
+              <p data-lang-es="Plato tradicional Wayuu preparado con carne de chivo guisada con especias autóctonas y servido con arroz y plátano." data-lang-en="Traditional Wayuu dish prepared with goat meat stewed with native spices and served with rice and plantain.">Plato tradicional Wayuu preparado con carne de chivo guisada con especias autóctonas y servido con arroz y plátano.</p>
+            </div>
+          </div>
+          <div class="swiper-slide food-slide">
+            <img src="https://cdn.pixabay.com/photo/2018/01/25/19/48/moringa-3106945_1280.jpg" alt="Chicha de corozo" class="food-img">
+            <div class="food-caption">
+              <h4 data-lang-es="Chicha de Corozo" data-lang-en="Corozo Chicha">Chicha de Corozo</h4>
+              <p data-lang-es="Bebida refrescante preparada con el fruto del corozo, típica de la región caribeña colombiana." data-lang-en="Refreshing drink prepared with corozo fruit, typical of the Colombian Caribbean region.">Bebida refrescante preparada con el fruto del corozo, típica de la región caribeña colombiana.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wayuu pattern divider -->
+  <div class="wayuu-pattern"></div>
+
+  <!-- Accommodation Section -->
+  <section id="hospedaje" class="section">
+    <div class="container">
+      <h2 class="section-title text-center" data-lang-es="Hospedaje" data-lang-en="Accommodation">Hospedaje</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <div class="hostel-card">
+            <img src="https://cdn.pixabay.com/photo/2016/10/13/09/06/travel-1737168_1280.jpg" alt="Ranchería Wayuu Tradicional" class="hostel-img">
+            <div class="hostel-content">
+              <h4 class="hostel-title" data-lang-es="Ranchería Wayuu Tradicional" data-lang-en="Traditional Wayuu Ranchería">Ranchería Wayuu Tradicional</h4>
+              <p class="hostel-description" data-lang-es="Experiencia auténtica en una ranchería tradicional. Alojamiento en chinchorro (hamaca) bajo las estrellas." data-lang-en="Authentic experience in a traditional ranchería. Accommodation in chinchorro (hammock) under the stars.">Experiencia auténtica en una ranchería tradicional. Alojamiento en chinchorro (hamaca) bajo las estrellas.</p>
+              <div class="amenity-list">
+                <span class="amenity" data-lang-es="Comida típica" data-lang-en="Traditional food">Comida típica</span>
+                <span class="amenity" data-lang-es="Baño compartido" data-lang-en="Shared bathroom">Baño compartido</span>
+                <span class="amenity" data-lang-es="Experiencia cultural" data-lang-en="Cultural experience">Experiencia cultural</span>
+              </div>
+              <a href="#contacto" class="btn btn-reserve-small" data-lang-es="Reservar" data-lang-en="Book">Reservar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="hostel-card">
+            <img src="https://cdn.pixabay.com/photo/2019/08/19/13/58/bed-4416515_1280.jpg" alt="Ecohabs Cabo de la Vela" class="hostel-img">
+            <div class="hostel-content">
+              <h4 class="hostel-title" data-lang-es="Ecohabs Cabo de la Vela" data-lang-en="Ecohabs Cabo de la Vela">Ecohabs Cabo de la Vela</h4>
+              <p class="hostel-description" data-lang-es="Cabañas ecológicas con vista al mar, construidas con materiales naturales siguiendo la arquitectura Wayuu." data-lang-en="Ecological cabins with sea view, built with natural materials following Wayuu architecture.">Cabañas ecológicas con vista al mar, construidas con materiales naturales siguiendo la arquitectura Wayuu.</p>
+              <div class="amenity-list">
+                <span class="amenity" data-lang-es="Baño privado" data-lang-en="Private bathroom">Baño privado</span>
+                <span class="amenity" data-lang-es="Restaurante" data-lang-en="Restaurant">Restaurante</span>
+                <span class="amenity" data-lang-es="Vista al mar" data-lang-en="Ocean view">Vista al mar</span>
+                <span class="amenity" data-lang-es="Energía solar" data-lang-en="Solar energy">Energía solar</span>
+              </div>
+              <a href="#contacto" class="btn btn-reserve-small" data-lang-es="Reservar" data-lang-en="Book">Reservar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="hostel-card">
+            <img src="https://cdn.pixabay.com/photo/2016/04/15/11/48/hotel-1330850_1280.jpg" alt="Hostal Cabo Velero" class="hostel-img">
+            <div class="hostel-content">
+              <h4 class="hostel-title" data-lang-es="Hostal Cabo Velero" data-lang-en="Hostel Cabo Velero">Hostal Cabo Velero</h4>
+              <p class="hostel-description" data-lang-es="Hostal sencillo y económico, perfecto para mochileros. Ofrece habitaciones compartidas y privadas a pocos metros de la playa." data-lang-en="Simple and economical hostel, perfect for backpackers. Offers shared and private rooms just a few meters from the beach.">Hostal sencillo y económico, perfecto para mochileros. Ofrece habitaciones compartidas y privadas a pocos metros de la playa.</p>
+              <div class="amenity-list">
+                <span class="amenity" data-lang-es="WiFi limitado" data-lang-en="Limited WiFi">WiFi limitado</span>
+                <span class="amenity" data-lang-es="Cocina compartida" data-lang-en="Shared kitchen">Cocina compartida</span>
+                <span class="amenity" data-lang-es="Tours" data-lang-en="Tours">Tours</span>
+                <span class="amenity" data-lang-es="Ambiente social" data-lang-en="Social atmosphere">Ambiente social</span>
+              </div>
+              <a href="#contacto" class="btn btn-reserve-small" data-lang-es="Reservar" data-lang-en="Book">Reservar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="hostel-card">
+            <img src="https://cdn.pixabay.com/photo/2018/02/24/17/17/window-3178666_1280.jpg" alt="Posada Wayuu Pitchilaya" class="hostel-img">
+            <div class="hostel-content">
+              <h4 class="hostel-title" data-lang-es="Posada Wayuu Pitchilaya" data-lang-en="Posada Wayuu Pitchilaya">Posada Wayuu Pitchilaya</h4>
+              <p class="hostel-description" data-lang-es="Posada familiar administrada por una familia Wayuu. Ofrece habitaciones sencillas con una auténtica experiencia cultural." data-lang-en="Family inn run by a Wayuu family. Offers simple rooms with an authentic cultural experience.">Posada familiar administrada por una familia Wayuu. Ofrece habitaciones sencillas con una auténtica experiencia cultural.</p>
+              <div class="amenity-list">
+                <span class="amenity" data-lang-es="Comida casera" data-lang-en="Homemade food">Comida casera</span>
+                <span class="amenity" data-lang-es="Guías locales" data-lang-en="Local guides">Guías locales</span>
+                <span class="amenity" data-lang-es="Artesanías" data-lang-en="Crafts">Artesanías</span>
+              </div>
+              <a href="#contacto" class="btn btn-reserve-small" data-lang-es="Reservar" data-lang-en="Book">Reservar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="hostel-card">
+            <img src="https://cdn.pixabay.com/photo/2014/07/10/17/17/hotel-389256_1280.jpg" alt="Hotel El Faro" class="hostel-img">
+            <div class="hostel-content">
+              <h4 class="hostel-title" data-lang-es="Hotel El Faro" data-lang-en="Hotel El Faro">Hotel El Faro</h4>
+              <p class="hostel-description" data-lang-es="Hotel con las mejores comodidades disponibles en la zona. Habitaciones con ventilador y camas confortables." data-lang-en="Hotel with the best amenities available in the area. Rooms with fan and comfortable beds.">Hotel con las mejores comodidades disponibles en la zona. Habitaciones con ventilador y camas confortables.</p>
+              <div class="amenity-list">
+                <span class="amenity" data-lang-es="Agua caliente" data-lang-en="Hot water">Agua caliente</span>
+                <span class="amenity" data-lang-es="Restaurante" data-lang-en="Restaurant">Restaurante</span>
+                <span class="amenity" data-lang-es="Bar" data-lang-en="Bar">Bar</span>
+                <span class="amenity" data-lang-es="Excursiones" data-lang-en="Excursions">Excursiones</span>
+              </div>
+              <a href="#contacto" class="btn btn-reserve-small" data-lang-es="Reservar" data-lang-en="Book">Reservar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="hostel-card">
+            <img src="https://cdn.pixabay.com/photo/2017/01/14/12/48/hotel-1979406_1280.jpg" alt="Glamping Cabo Estrella" class="hostel-img">
+            <div class="hostel-content">
+              <h4 class="hostel-title" data-lang-es="Glamping Cabo Estrella" data-lang-en="Glamping Cabo Estrella">Glamping Cabo Estrella</h4>
+              <p class="hostel-description" data-lang-es="Experiencia de glamping con carpas de lujo y camas cómodas. Perfecto para quienes buscan contacto con la naturaleza sin renunciar a la comodidad." data-lang-en="Glamping experience with luxury tents and comfortable beds. Perfect for those seeking contact with nature without giving up comfort.">Experiencia de glamping con carpas de lujo y camas cómodas. Perfecto para quienes buscan contacto con la naturaleza sin renunciar a la comodidad.</p>
+              <div class="amenity-list">
+                <span class="amenity" data-lang-es="Ducha exterior" data-lang-en="Outdoor shower">Ducha exterior</span>
+                <span class="amenity" data-lang-es="Desayuno" data-lang-en="Breakfast">Desayuno</span>
+                <span class="amenity" data-lang-es="Yoga al amanecer" data-lang-en="Sunrise yoga">Yoga al amanecer</span>
+              </div>
+              <a href="#contacto" class="btn btn-reserve-small" data-lang-es="Reservar" data-lang-en="Book">Reservar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wayuu pattern divider -->
+  <div class="wayuu-pattern"></div>
+
+  <!-- Contact Section -->
+  <section id="contacto" class="section">
+    <div class="container">
+      <h2 class="section-title text-center" data-lang-es="Contacto y Redes Sociales" data-lang-en="Contact and Social Media">Contacto y Redes Sociales</h2>
+      <div class="row">
+        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
+          <div class="contact-form">
+            <h4 class="mb-4" data-lang-es="Reserva tu experiencia" data-lang-en="Book your experience">Reserva tu experiencia</h4>
+            <form id="contactForm">
+              <div class="mb-3">
+                <label for="name" class="form-label" data-lang-es="Nombre" data-lang-en="Name">Nombre</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label" data-lang-es="Correo electrónico" data-lang-en="Email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label" data-lang-es="Mensaje" data-lang-en="Message">Mensaje</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" data-lang-es="Idioma preferido" data-lang-en="Preferred language">Idioma preferido</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="language" id="spanish" value="es" checked>
+                  <label class="form-check-label" for="spanish" data-lang-es="Español" data-lang-en="Spanish">Español</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="language" id="english" value="en">
+                  <label class="form-check-label" for="english" data-lang-es="Inglés" data-lang-en="English">Inglés</label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-submit" data-lang-es="Enviar mensaje" data-lang-en="Send message">Enviar mensaje</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="social-feed">
+            <h4 class="social-title" data-lang-es="Síguenos en redes sociales" data-lang-en="Follow us on social media">Síguenos en redes sociales</h4>
+            <div class="social-post">
+              <i class="fab fa-instagram social-icon"></i>
+              <div class="social-content">
+                <p class="social-username">@DiscoverColombia</p>
+                <p class="social-text" data-lang-es="¡Increíbles atardeceres en el Pilón de Azúcar! No te pierdas esta maravilla cuando visites Cabo de la Vela. #ColombiaEsMagia" data-lang-en="Amazing sunsets at Pilón de Azúcar! Don't miss this wonder when you visit Cabo de la Vela. #ColombiaIsMagic">¡Increíbles atardeceres en el Pilón de Azúcar! No te pierdas esta maravilla cuando visites Cabo de la Vela. #ColombiaEsMagia</p>
+                <p class="social-date">2 hours ago</p>
+              </div>
+            </div>
+            <div class="social-post">
+              <i class="fab fa-twitter social-icon"></i>
+              <div class="social-content">
+                <p class="social-username">@DiscoverColombia</p>
+                <p class="social-text" data-lang-es="La comunidad Wayuu nos recibió con los brazos abiertos para aprender sobre su cultura milenaria. ¡Una experiencia inolvidable! #TurismoResponsable" data-lang-en="The Wayuu community welcomed us with open arms to learn about their ancient culture. An unforgettable experience! #ResponsibleTourism">La comunidad Wayuu nos recibió con los brazos abiertos para aprender sobre su cultura milenaria. ¡Una experiencia inolvidable! #TurismoResponsable</p>
+                <p class="social-date">1 day ago</p>
+              </div>
+            </div>
+            <div class="social-post">
+              <i class="fab fa-instagram social-icon"></i>
+              <div class="social-content">
+                <p class="social-username">@DiscoverColombia</p>
+                <p class="social-text" data-lang-es="¿Sabías que Cabo de la Vela es uno de los mejores lugares del mundo para practicar kitesurf? ¡Vientos constantes y aguas cristalinas te esperan! #Kitesurf #CaboDelaVela" data-lang-en="Did you know that Cabo de la Vela is one of the best places in the world to practice kitesurfing? Constant winds and crystal clear waters await you! #Kitesurf #CaboDelaVela">¿Sabías que Cabo de la Vela es uno de los mejores lugares del mundo para practicar kitesurf? ¡Vientos constantes y aguas cristalinas te esperan! #Kitesurf #CaboDelaVela</p>
+                <p class="social-date">3 days ago</p>
+              </div>
+            </div>
+            <div class="social-post">
+              <i class="fab fa-twitter social-icon"></i>
+              <div class="social-content">
+                <p class="social-username">@DiscoverColombia</p>
+                <p class="social-text" data-lang-es="Nuestro tour a Punta Gallinas está completo para julio, ¡pero aún tenemos disponibilidad para agosto! Reserva tu lugar ahora. #PuntaGallinas #LaGuajira" data-lang-en="Our tour to Punta Gallinas is fully booked for July, but we still have availability for August! Book your spot now. #PuntaGallinas #LaGuajira">Nuestro tour a Punta Gallinas está completo para julio, ¡pero aún tenemos disponibilidad para agosto! Reserva tu lugar ahora. #PuntaGallinas #LaGuajira</p>
+                <p class="social-date">1 week ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-icons">
+        <a href="javascript:void(0)" class="footer-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="javascript:void(0)" class="footer-icon"><i class="fab fa-instagram"></i></a>
+        <a href="javascript:void(0)" class="footer-icon"><i class="fab fa-twitter"></i></a>
+        <a href="javascript:void(0)" class="footer-icon"><i class="fab fa-youtube"></i></a>
+        <a href="javascript:void(0)" class="footer-icon"><i class="fab fa-pinterest"></i></a>
+      </div>
+      <div class="footer-links">
+        <a href="#info-general" class="footer-link" data-lang-es="Información" data-lang-en="Information">Información</a>
+        <a href="#tips" class="footer-link" data-lang-es="Tips" data-lang-en="Tips">Tips</a>
+        <a href="#tours" class="footer-link" data-lang-es="Tours" data-lang-en="Tours">Tours</a>
+        <a href="#transporte" class="footer-link" data-lang-es="Transporte" data-lang-en="Transport">Transporte</a>
+        <a href="#comida" class="footer-link" data-lang-es="Comida" data-lang-en="Food">Comida</a>
+        <a href="#hospedaje" class="footer-link" data-lang-es="Hospedaje" data-lang-en="Accommodation">Hospedaje</a>
+        <a href="#contacto" class="footer-link" data-lang-es="Contacto" data-lang-en="Contact">Contacto</a>
+      </div>
+      <p class="copyright">
+        <span data-lang-es="© 2025 Discover the Colors of Colombia. Todos los derechos reservados." data-lang-en="© 2025 Discover the Colors of Colombia. All rights reserved.">© 2025 Discover the Colors of Colombia. Todos los derechos reservados.</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="cabo_vela.js"></script>
+</body>
+</html>
