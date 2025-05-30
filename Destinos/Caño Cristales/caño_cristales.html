@@ -11,11 +11,48 @@
     <link rel="stylesheet" href="caño_cristales.css">
 </head>
 <body>
-    <!-- Language Toggle -->
-    <div class="language-toggle" id="language-toggle">
-        <img src="https://cdn.pixabay.com/photo/2012/04/10/23/01/spain-26886_1280.png" alt="Spanish Flag" class="language-flag" id="current-flag">
-        <span id="current-language">Español</span>
-    </div>
+    <!-- Navigation Bar -->
+    <nav class="custom-navbar navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/imgs/Colombia.png" alt="Colombia Logo" class="logo">
+                Caño Cristales
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info">Información General</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tips">Tips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tours">Tours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#transportation">Transporte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#food">Gastronomía</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#accommodation">Hospedaje</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Elfsight Website Translator | Untitled Website Translator -->
+                        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+                        <div class="elfsight-app-50dbdad7-af3e-4f11-9d3a-801360e263d0" data-elfsight-app-lazy></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Hero Section -->
     <section id="hero">
@@ -25,8 +62,8 @@
             <p class="hero-subtitle" data-es="Caño Cristales, el río más hermoso del mundo" data-en="Caño Cristales, the most beautiful river in the world">Caño Cristales, el río más hermoso del mundo</p>
             <div class="hero-buttons">
                 <a href="#info" class="btn btn-primary" data-es="Explora" data-en="Explore">Explora</a>
-                <a href="#contact" class="btn btn-secondary" data-es="Reserva tu aventura" data-en="Book your adventure">Reserva tu aventura</a>
                 <a href="#transportation" class="btn btn-tertiary" data-es="Descúbrelo ahora" data-en="Discover it now">Descúbrelo ahora</a>
+                <a href="/index.html" class="btn btn-secondary" data-es="Volver_Pag_Principal" data-en="Book your adventure">Volver</a>
             </div>
             
             <!-- Testimonials Slider -->
@@ -166,7 +203,6 @@
                                 <span class="tour-price" data-es="$120.000 COP" data-en="$120,000 COP">$120.000 COP</span>
                             </div>
                             <p data-es="Recorre los principales senderos de Caño Cristales con guías locales expertos que te explicarán la flora y fauna única de la región." data-en="Travel the main trails of Caño Cristales with expert local guides who will explain the unique flora and fauna of the region.">Recorre los principales senderos de Caño Cristales con guías locales expertos que te explicarán la flora y fauna única de la región.</p>
-                            <a href="#contact" class="btn btn-sm btn-primary" data-es="Reservar" data-en="Book Now">Reservar</a>
                         </div>
                     </div>
                 </div>
@@ -180,7 +216,6 @@
                                 <span class="tour-price" data-es="$150.000 COP" data-en="$150,000 COP">$150.000 COP</span>
                             </div>
                             <p data-es="La Sierra de La Macarena alberga más de 500 especies de aves. Este tour te llevará a los mejores puntos de observación acompañado por un guía ornitólogo." data-en="The Sierra de La Macarena is home to more than 500 bird species. This tour will take you to the best observation points accompanied by an ornithologist guide.">La Sierra de La Macarena alberga más de 500 especies de aves. Este tour te llevará a los mejores puntos de observación acompañado por un guía ornitólogo.</p>
-                            <a href="#contact" class="btn btn-sm btn-primary" data-es="Reservar" data-en="Book Now">Reservar</a>
                         </div>
                     </div>
                 </div>
@@ -194,7 +229,6 @@
                                 <span class="tour-price" data-es="$200.000 COP" data-en="$200,000 COP">$200.000 COP</span>
                             </div>
                             <p data-es="Experiencia inmersiva que incluye todos los puntos destacados de Caño Cristales: Los Ochos, El Tapete, Cascada de la Virgen y más. Incluye almuerzo típico." data-en="Immersive experience that includes all the highlights of Caño Cristales: Los Ochos, El Tapete, Cascada de la Virgen, and more. Includes typical lunch.">Experiencia inmersiva que incluye todos los puntos destacados de Caño Cristales: Los Ochos, El Tapete, Cascada de la Virgen y más. Incluye almuerzo típico.</p>
-                            <a href="#contact" class="btn btn-sm btn-primary" data-es="Reservar" data-en="Book Now">Reservar</a>
                         </div>
                     </div>
                 </div>
@@ -208,7 +242,6 @@
                                 <span class="tour-price" data-es="$180.000 COP" data-en="$180,000 COP">$180.000 COP</span>
                             </div>
                             <p data-es="Tour diseñado para fotógrafos que buscan capturar los mejores ángulos y luces del río. Se visitan puntos especiales en los mejores momentos del día." data-en="Tour designed for photographers looking to capture the best angles and lights of the river. Special points are visited at the best times of the day.">Tour diseñado para fotógrafos que buscan capturar los mejores ángulos y luces del río. Se visitan puntos especiales en los mejores momentos del día.</p>
-                            <a href="#contact" class="btn btn-sm btn-primary" data-es="Reservar" data-en="Book Now">Reservar</a>
                         </div>
                     </div>
                 </div>
@@ -222,7 +255,6 @@
                                 <span class="tour-price" data-es="$170.000 COP" data-en="$170,000 COP">$170.000 COP</span>
                             </div>
                             <p data-es="Conoce las comunidades locales, aprende sobre su cultura y forma de vida. Incluye visita a proyectos de conservación y desarrollo sostenible." data-en="Meet local communities, learn about their culture and way of life. Includes visit to conservation and sustainable development projects.">Conoce las comunidades locales, aprende sobre su cultura y forma de vida. Incluye visita a proyectos de conservación y desarrollo sostenible.</p>
-                            <a href="#contact" class="btn btn-sm btn-primary" data-es="Reservar" data-en="Book Now">Reservar</a>
                         </div>
                     </div>
                 </div>
@@ -236,7 +268,6 @@
                                 <span class="tour-price" data-es="$850.000 COP" data-en="$850,000 COP">$850.000 COP</span>
                             </div>
                             <p data-es="Aventura completa que incluye Caño Cristales y otras maravillas naturales de La Macarena como Caño Piedra y el Río Guayabero. Alojamiento y comidas incluidas." data-en="Complete adventure that includes Caño Cristales and other natural wonders of La Macarena such as Caño Piedra and the Guayabero River. Accommodation and meals included.">Aventura completa que incluye Caño Cristales y otras maravillas naturales de La Macarena como Caño Piedra y el Río Guayabero. Alojamiento y comidas incluidas.</p>
-                            <a href="#contact" class="btn btn-sm btn-primary" data-es="Reservar" data-en="Book Now">Reservar</a>
                         </div>
                     </div>
                 </div>
@@ -379,49 +410,37 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="accommodation-card">
-                            <img src="https://cdn.pixabay.com/photo/2016/11/18/22/21/architecture-1837150_1280.jpg" alt="Eco-habs La Macarena" class="accommodation-img">
-                            <div class="accommodation-details">
-                                <h4 class="accommodation-title" data-es="Eco-habs La Macarena" data-en="La Macarena Eco-habs">Eco-habs La Macarena</h4>
-                                <p class="accommodation-price" data-es="Rango de Precio: $150.000 - $250.000 COP por noche" data-en="Price Range: $150,000 - $250,000 COP per night">Rango de Precio: $150.000 - $250.000 COP por noche</p>
-                                <p class="accommodation-accessibility" data-es="Accesibilidad: Parcialmente accesible para personas con movilidad reducida" data-en="Accessibility: Partially accessible for people with reduced mobility">Accesibilidad: Parcialmente accesible para personas con movilidad reducida</p>
-                                <p data-es="Cabañas ecológicas construidas con materiales locales y diseñadas para integrarse con el entorno. Ofrecen comodidades básicas pero confortables, electricidad solar y agua caliente." data-en="Ecological cabins built with local materials and designed to integrate with the environment. They offer basic but comfortable amenities, solar electricity, and hot water.">Cabañas ecológicas construidas con materiales locales y diseñadas para integrarse con el entorno. Ofrecen comodidades básicas pero confortables, electricidad solar y agua caliente.</p>
-                                <a href="mailto:info@ecohabs-macarena.com" class="btn btn-sm btn-primary" data-es="Contactar" data-en="Contact">Contactar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="accommodation-card">
-                            <img src="https://cdn.pixabay.com/photo/2020/01/15/18/01/hut-4768561_1280.jpg" alt="Ecolodge Caño Cristales" class="accommodation-img">
+                            <img src="https://awake.travel/storage/courses/1705506800912295.jpg?v=M0Y0T1cB05YZsKbp" alt="Ecolodge Caño Cristales" class="accommodation-img">
                             <div class="accommodation-details">
                                 <h4 class="accommodation-title" data-es="Ecolodge Caño Cristales" data-en="Caño Cristales Ecolodge">Ecolodge Caño Cristales</h4>
                                 <p class="accommodation-price" data-es="Rango de Precio: $200.000 - $350.000 COP por noche" data-en="Price Range: $200,000 - $350,000 COP per night">Rango de Precio: $200.000 - $350.000 COP por noche</p>
                                 <p class="accommodation-accessibility" data-es="Accesibilidad: Instalaciones adaptadas para sillas de ruedas" data-en="Accessibility: Facilities adapted for wheelchairs">Accesibilidad: Instalaciones adaptadas para sillas de ruedas</p>
                                 <p data-es="Lodge ecológico con enfoque en sostenibilidad. Habitaciones amplias con vistas a la naturaleza, paneles solares, tratamiento de aguas residuales y programas de educación ambiental para huéspedes." data-en="Ecological lodge with a focus on sustainability. Spacious rooms with views of nature, solar panels, wastewater treatment, and environmental education programs for guests.">Lodge ecológico con enfoque en sostenibilidad. Habitaciones amplias con vistas a la naturaleza, paneles solares, tratamiento de aguas residuales y programas de educación ambiental para huéspedes.</p>
-                                <a href="mailto:reservas@ecolodge-canocristales.com" class="btn btn-sm btn-primary" data-es="Contactar" data-en="Contact">Contactar</a>
+                                
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="accommodation-card">
-                            <img src="https://cdn.pixabay.com/photo/2016/10/06/22/35/hotel-1720773_1280.jpg" alt="Hotel Macarena Verde" class="accommodation-img">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/8a/03/c2/caption.jpg?w=1200&h=-1&s=1" alt="Hotel Macarena Verde" class="accommodation-img">
                             <div class="accommodation-details">
                                 <h4 class="accommodation-title" data-es="Hotel Macarena Verde" data-en="Macarena Verde Hotel">Hotel Macarena Verde</h4>
                                 <p class="accommodation-price" data-es="Rango de Precio: $100.000 - $180.000 COP por noche" data-en="Price Range: $100,000 - $180,000 COP per night">Rango de Precio: $100.000 - $180.000 COP por noche</p>
                                 <p class="accommodation-accessibility" data-es="Accesibilidad: Totalmente accesible, habitaciones adaptadas disponibles" data-en="Accessibility: Fully accessible, adapted rooms available">Accesibilidad: Totalmente accesible, habitaciones adaptadas disponibles</p>
                                 <p data-es="Hotel familiar en el centro de La Macarena con habitaciones sencillas pero cómodas. Ofrece desayuno incluido con productos locales y apoyo con la organización de tours y traslados." data-en="Family hotel in the center of La Macarena with simple but comfortable rooms. Offers breakfast included with local products and support with the organization of tours and transfers.">Hotel familiar en el centro de La Macarena con habitaciones sencillas pero cómodas. Ofrece desayuno incluido con productos locales y apoyo con la organización de tours y traslados.</p>
-                                <a href="mailto:hotel@macarenaverde.com" class="btn btn-sm btn-primary" data-es="Contactar" data-en="Contact">Contactar</a>
+
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="accommodation-card">
-                            <img src="https://cdn.pixabay.com/photo/2015/09/18/01/02/room-944895_1280.jpg" alt="Hostal El Viajero" class="accommodation-img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGVsZLE84OVVf1waxx8ByD58-VS8M24ty3ig&s" alt="Hostal El Viajero" class="accommodation-img">
                             <div class="accommodation-details">
                                 <h4 class="accommodation-title" data-es="Hostal El Viajero" data-en="El Viajero Hostel">Hostal El Viajero</h4>
                                 <p class="accommodation-price" data-es="Rango de Precio: $40.000 - $80.000 COP por noche" data-en="Price Range: $40,000 - $80,000 COP per night">Rango de Precio: $40.000 - $80.000 COP por noche</p>
                                 <p class="accommodation-accessibility" data-es="Accesibilidad: Acceso a planta baja sin escaleras" data-en="Accessibility: Ground floor access without stairs">Accesibilidad: Acceso a planta baja sin escaleras</p>
                                 <p data-es="Opción económica para viajeros. Ofrece habitaciones compartidas y privadas, cocina comunitaria y áreas comunes donde compartir experiencias con otros viajeros. Ambiente relajado y amigable." data-en="Economical option for travelers. Offers shared and private rooms, community kitchen, and common areas to share experiences with other travelers. Relaxed and friendly atmosphere.">Opción económica para viajeros. Ofrece habitaciones compartidas y privadas, cocina comunitaria y áreas comunes donde compartir experiencias con otros viajeros. Ambiente relajado y amigable.</p>
-                                <a href="mailto:info@hostalviajero.com" class="btn btn-sm btn-primary" data-es="Contactar" data-en="Contact">Contactar</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -440,17 +459,12 @@
             <div class="row g-5">
                 <div class="col-lg-6">
                     <h3 class="mb-4" data-es="Información de Contacto" data-en="Contact Information">Información de Contacto</h3>
-                    <p><i class="fas fa-envelope me-2"></i> info@discovertcolors.com</p>
-                    <p><i class="fas fa-phone me-2"></i> +57 311 234 5678</p>
-                    <p><i class="fas fa-map-marker-alt me-2"></i> <span data-es="Oficina en Bogotá: Calle 85 #11-53, Oficina 202" data-en="Bogotá Office: Calle 85 #11-53, Office 202">Oficina en Bogotá: Calle 85 #11-53, Oficina 202</span></p>
-                    <p><i class="fas fa-map-marker-alt me-2"></i> <span data-es="Oficina en La Macarena: Calle Principal #5-23" data-en="La Macarena Office: Main Street #5-23">Oficina en La Macarena: Calle Principal #5-23</span></p>
-                    
+                    <p><i class="fas fa-envelope me-2"></i> Discovercolorco@gmail.com</p>
+                    <p><i class="fas fa-phone me-2"></i>+57 320 4434041</p>
                     <h4 class="mt-5 mb-3" data-es="Síguenos en Redes Sociales" data-en="Follow Us on Social Media">Síguenos en Redes Sociales</h4>
                     <div class="social-links">
                         <a href="javascript:void(0)" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                        <a href="javascript:void(0)" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="javascript:void(0)" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="javascript:void(0)" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/discover_color_colombia?igsh=dnU4OWlzYTl2MjVh" class="social-link"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -469,8 +483,7 @@
           <p><img src="/imgs/Colombia.png" alt="Colombia Logo" class="footer-logo">Colombia</p>
           <p data-i18n-key="footerDescription">Official tourism promotion website for Colombia. Discover the vibrant colors, rich culture, and natural beauty of this diverse South American destination.</p>
           <div class="social-icons mt-3">
-            <a href="javascript:void(0)"><i class="fab fa-whatsapp"></i></a>
-            <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/discover_color_colombia?igsh=dnU4OWlzYTl2MjVh"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
         <div class="col-lg-2 col-md-6">
@@ -483,16 +496,15 @@
           </ul>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h4 class="footer-heading" data-i18n-key="contactUsTitle">Contact Us</h4>
-          <p><i class="fas fa-envelope me-2"></i> info@discovertcolors.com</p>
-          <p><i class="fas fa-phone me-2"></i> +57 311 234 5678</p>
-          <p><i class="fas fa-map-marker-alt me-2"></i> Calle 85 #11-53, Bogotá, Colombia</p>
-          <div class="mt-3">
-            <span class="sustainability-badge">
-              <i class="fas fa-leaf me-1"></i> Committed to Sustainable Tourism
-            </span>
+            <h4 class="footer-heading" data-i18n-key="contactUsTitle">Contact Us</h4>
+            <p><i class="fas fa-envelope me-2"></i> Discovercolorco@gmail.com</p>
+            <p><i class="fas fa-phone me-2"></i> +57 320 4434041</p>
+            <div class="mt-3">
+              <span class="sustainability-badge">
+                <i class="fas fa-leaf me-1"></i> Committed to Sustainable Tourism
+              </span>
+            </div>
           </div>
-        </div>
       </div>
       <div class="footer-bottom">
         <p>&copy; 2025 Colors of my land by Colombia. All Rights Reserved. Ministry of Commerce, Industry and Tourism.</p>

@@ -7,6 +7,7 @@
   --blue-accent: #3D7DCA;
   --black: #000000;
   --yellow-sun: #F9D74D;
+  --white: #FFFFFF;
 }
 
 body {
@@ -18,6 +19,17 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
+
+.custom-navbar { transition: all 0.4s ease; padding: 1rem 2rem; }
+.navbar-scrolled { background-color: rgba(252, 250, 250, 0.95); box-shadow: 0 2px 10px rgba(2, 2, 2, 0.1); padding: 0.5rem 2rem; }
+.navbar-brand img { height: 50px; transition: all 0.4s ease; }
+.navbar-scrolled .navbar-brand img { height: 40px; }
+.navbar-nav .nav-link { color: var(--white); font-weight: 600; padding: 0.5rem 1rem; position: relative; }
+.navbar-scrolled .navbar-nav .nav-link { color: var(--black); }
+.navbar-nav .nav-link::after { content: ''; position: absolute; width: 0; height: 2px; bottom: 0; left: 50%; background-color: var(--yellow-sun); transition: all 0.3s ease; }
+.navbar-nav .nav-link:hover::after { width: 80%; left: 10%; }
+
+
 
 .hero-section {
   height: 100vh;
@@ -94,6 +106,25 @@ h1, h2, h3, h4, h5, h6 {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: dash 5s linear forwards;
+}
+
+/* Responsive */
+@media (max-width: 991.98px) {
+  .hero-title { font-size: 2.5rem; }
+  .hero-subtitle { font-size: 1.2rem; }
+  .navbar-nav { background-color: rgba(0,0,0,0.8); padding: 1rem; border-radius: 5px; }
+  .navbar-scrolled .navbar-nav { background-color: transparent; }
+}
+@media (max-width: 767.98px) {
+  .hero-title { font-size: 2rem; }
+  .about-tabs .nav-link { padding: 0.5rem; font-size: 0.9rem; }
+  .map-container { height: 300px; }
+  .destination-card { height: 350px; }
+}
+@media (max-width: 575.98px) {
+  .btn-hero { width: 100%; margin-bottom: 0.5rem; }
+  .hero-title { font-size: 1.7rem; }
+  .hero-subtitle { font-size: 1rem; }
 }
 
 @keyframes dash {
@@ -232,8 +263,16 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--primary-color) !important;
 }
 
+@media (max-width: 991.98px){
+  .hero-title { font-size: 2.5rem; }
+  .hero-subtitle { font-size: 1.2rem; }
+}
+
+
+
+
 @media (max-width: 768px) {
-  .hero-section {
+   .hero-section {
     height: 80vh;
   }
   

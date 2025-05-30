@@ -1,3 +1,13 @@
+// Manejar el cambio de clase del navbar al hacer scroll
+window.addEventListener('scroll', function() {
+  const navbar = document.querySelector('.custom-navbar');
+  if (window.scrollY > 50) {
+    navbar.classList.add('navbar-scrolled');
+  } else {
+    navbar.classList.remove('navbar-scrolled');
+  }
+});
+
 // Inicializar AOS (Animate on Scroll)
 AOS.init({
   duration: 800,
