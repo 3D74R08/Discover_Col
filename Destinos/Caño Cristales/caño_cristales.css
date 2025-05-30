@@ -24,7 +24,7 @@ body {
 
 /* Navigation */
 .custom-navbar { transition: all 0.4s ease; padding: 1rem 2rem; }
-.navbar-scrolled { background-color: rgb(255, 255, 255); box-shadow: 0 2px 10px rgba(0,0,0,0.1); padding: 0.5rem 2rem; }
+.navbar-scrolled { background-color: rgba(255,255,255,0.95); box-shadow: 0 2px 10px rgba(0,0,0,0.1); padding: 0.5rem 2rem; }
 .navbar-brand img { height: 50px; transition: all 0.4s ease; }
 .navbar-scrolled .navbar-brand img { height: 40px; }
 .navbar-nav .nav-link { color: var(--white); font-weight: 600; padding: 0.5rem 1rem; position: relative; }
@@ -39,7 +39,7 @@ body {
         border-radius: 5px; 
     }
     .navbar-scrolled .navbar-nav { 
-        background-color: white; 
+        background-color: transparent; 
     }
 }
 

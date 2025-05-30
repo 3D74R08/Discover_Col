@@ -13,19 +13,6 @@ const foodCarousel = new Swiper('.food-carousel', {
     },
 });
 
-// Cambio de idioma
-document.getElementById('langSwitch').addEventListener('click', () => {
-    const enElements = document.querySelectorAll('.lang-en');
-    const esElements = document.querySelectorAll('.lang-es');
-    
-    enElements.forEach(el => {
-        el.style.display = el.style.display === 'none' ? '' : 'none';
-    });
-    
-    esElements.forEach(el => {
-        el.style.display = el.style.display === 'none' ? '' : 'none';
-    });
-});
 
 // Efecto de navbar al hacer scroll
 window.addEventListener('scroll', () => {
