@@ -7,6 +7,8 @@
   --sunset-orange: #FF7F50;
   --warm-yellow: #FFC04C;
   --sand-beige: #F2D0A4;
+  --black: #000;
+  --yellow-sun: #FFC107;
 }
 
 body {
@@ -280,6 +282,125 @@ body {
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 20px;
+}
+
+/* Food Cards Row - Scrollbar y alineación */
+.food-cards-row {
+  padding-bottom: 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: #2e7d32 #e0e0e0;
+}
+.food-cards-row::-webkit-scrollbar {
+  height: 10px;
+}
+.food-cards-row::-webkit-scrollbar-thumb {
+  background: #2e7d32;
+  border-radius: 6px;
+}
+.food-cards-row::-webkit-scrollbar-track {
+  background: #e0e0e0;
+  border-radius: 6px;
+}
+
+/* Food Card */
+.food-card {
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgba(44, 62, 80, 0.10);
+  border: none;
+  background: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+  min-width: 300px;
+  max-width: 320px;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.food-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.18);
+}
+
+.food-img {
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.food-caption {
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+.food-card .card-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #2e7d32;
+  margin-bottom: 0.5rem;
+}
+.food-card .card-text {
+  font-size: 0.98rem;
+  color: #444;
+}
+
+/* Footer estilos del index.html */
+.footer { background-color: var(--black); color: white; padding: 4rem 0 2rem; }
+.footer-logo { height: 60px; margin-bottom: 1rem; }
+.footer-heading { font-weight: 700; margin-bottom: 1.5rem; color: var(--yellow-sun); }
+.footer-links { list-style: none; padding: 0; }
+.footer-links li { margin-bottom: 0.5rem; }
+.footer-links a { color: white; text-decoration: none; transition: all 0.3s ease; }
+.footer-links a:hover { color: var(--yellow-sun); padding-left: 5px; }
+.social-icons a { color: white; font-size: 1.5rem; margin-right: 1rem; transition: all 0.3s ease; }
+.social-icons a:hover { color: var(--yellow-sun); }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); margin-top: 3rem; padding-top: 2rem; text-align: center; }
+.footer-bottom p { margin-bottom: 0; font-size: 0.9rem; }
+
+.contact-social-card {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 6px 32px rgba(44,62,80,0.10);
+  padding: 2.5rem 2rem 2rem 2rem;
+  margin: 0 auto 2rem auto;
+  max-width: 420px;
+  width: 100%;
+  transition: box-shadow 0.3s;
+}
+.contact-social-card:hover {
+  box-shadow: 0 12px 40px rgba(44,62,80,0.18);
+}
+.contact-social-card .social-icons {
+  margin-bottom: 1.5rem;
+}
+.contact-social-card .social-icon {
+  font-size: 2rem;
+  color: var(--deep-blue, #0D4C92);
+  margin: 0 0.5rem;
+  transition: color 0.2s;
+}
+.contact-social-card .social-icon:hover {
+  color: var(--sunset-orange, #FF7F50);
+}
+.contact-social-card .contact-info p {
+  font-size: 1rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .food-card {
+    min-width: 220px;
+    max-width: 240px;
+  }
+  .food-img {
+    height: 120px;
+  }
+  .contact-social-card {
+    padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+    max-width: 98vw;
+  }
+  .contact-social-card .social-icon {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 768px) {
