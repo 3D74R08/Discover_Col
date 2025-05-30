@@ -154,7 +154,7 @@ body {
 }
 
 .navbar-nav .nav-link { 
-  color: white; 
+  color: rgb(2, 2, 2); 
   font-weight: 600; 
   padding: 0.5rem 1rem; 
   position: relative; 

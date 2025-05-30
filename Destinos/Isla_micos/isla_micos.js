@@ -79,22 +79,4 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
 });
 
 // Cambio de idioma (prototipo)
-document.getElementById('es-lang').addEventListener('click', function() {
-  document.getElementById('es-lang').classList.add('active');
-  document.getElementById('en-lang').classList.remove('active');
-  alert('Este es un prototipo. La funcionalidad de cambio de idioma se implementará en la versión completa.');
-});
-document.getElementById('en-lang').addEventListener('click', function() {
-  document.getElementById('en-lang').classList.add('active');
-  document.getElementById('es-lang').classList.remove('active');
-  alert('This is a prototype. Language switching functionality will be implemented in the full version.');
-});
-// Cambio de idioma del mapa (prototipo)
-document.getElementById('btn-es').addEventListener('click', function() {
-  document.getElementById('btn-es').classList.add('active');
-  document.getElementById('btn-en').classList.remove('active');
-});
-document.getElementById('btn-en').addEventListener('click', function() {
-  document.getElementById('btn-en').classList.add('active');
-  document.getElementById('btn-es').classList.remove('active');
-});
+
